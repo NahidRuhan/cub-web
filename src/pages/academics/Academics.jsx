@@ -60,7 +60,7 @@ const Academics = () => {
     </div>
 
 
-        <div onClick={()=>navigate('/academics/english')}
+        <div onClick={()=>navigate('/academics/departments/english')}
       className="p-5 bg-slate-100 shadow-xl cursor-pointer relative overflow-hidden"
       onMouseEnter={() => setIsHoveredEnglish(true)}
       onMouseLeave={() => setIsHoveredEnglish(false)}
@@ -83,7 +83,7 @@ const Academics = () => {
     </div>
 
 
-    <div onClick={()=>navigate('/academics/law')}
+    <div onClick={()=>navigate('/academics/departments/law')}
       className="p-5 bg-slate-100 shadow-xl cursor-pointer relative overflow-hidden"
       onMouseEnter={() => setIsHoveredLaw(true)}
       onMouseLeave={() => setIsHoveredLaw(false)}
@@ -106,7 +106,7 @@ const Academics = () => {
     </div>
 
 
-    <div onClick={()=>navigate('/academics/eee')}
+    <div onClick={()=>navigate('/academics/departments/eee')}
       className="p-5 bg-slate-100 shadow-xl cursor-pointer relative overflow-hidden"
       onMouseEnter={() => setIsHoveredEEE(true)}
       onMouseLeave={() => setIsHoveredEEE(false)}
@@ -128,7 +128,7 @@ const Academics = () => {
       />
     </div>
 
-    <div onClick={()=>navigate('/academics/general')}
+    <div onClick={()=>navigate('/academics/departments/general')}
       className="p-5 bg-slate-100 shadow-xl cursor-pointer relative overflow-hidden"
       onMouseEnter={() => setIsHoveredGeneral(true)}
       onMouseLeave={() => setIsHoveredGeneral(false)}

@@ -1,6 +1,4 @@
 /* eslint-disable react/prop-types */
-// Navbar.jsx
-
 import { useState, useEffect } from 'react';
 
 
@@ -16,7 +14,7 @@ const TertioryNav = () => {
   useEffect(() => {
     const handleScroll = () => {
       // Check if the scroll position is greater than 0
-      const scrolled = window.scrollY > 280;
+      const scrolled = window.scrollY > 250;
       setIsScrolled(scrolled);
     };
 
@@ -34,7 +32,7 @@ const TertioryNav = () => {
   useEffect(() => {
     const handleScroll = () => {
       // Set a scroll threshold (adjust as needed)
-      const scrollThreshold = 280;
+      const scrollThreshold = 250;
 
       // Check if the scroll position is greater than the threshold
       const scrolled = window.scrollY > scrollThreshold;
@@ -55,12 +53,15 @@ const TertioryNav = () => {
     {/* <nav className='navbar navbar-expand-lg navbar-dark bg-red-600 p-4 fixed top-0 left-0 w-full'> */}
       <div className="container mx-auto flex justify-between items-center">
         {isScrolled && (
-            <img
-              src="https://canadianuv.netlify.app/Images/CUBWhite.png"
-              alt="Logo"
-              className="mr-3"
-              style={{ height: '40px', width: 'auto' }}
-            />
+            <a href='/'>
+                <img
+                    src="https://canadianuv.netlify.app/Images/CUBWhite.png"
+                    alt="Logo"
+                    className="mr-3"
+                    style={{ height: '40px', width: 'auto' }}
+                />
+            </a>
+            
           )}
 
         <button
@@ -84,10 +85,10 @@ const TertioryNav = () => {
         </button>
         
         <div className="hidden flex-grow lg:flex lg:justify-around lg:w-full space-x-5">
-          <Dropdown title="About Us" classes_title={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5`} items={['Vision Mission', 'Leadership And Administration', 'Message from Chairman', 'Message from Vice Chancellor', 'Message from Pro Vice Chancellor', 'Collaboration', 'Awards And Achievements', 'Permanent Campus']} />
-          <Dropdown title="Academics" classes_title={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5`} items={['Schools', 'Departments', 'Centers And Institution', 'Fees And Payments', 'Policies And Procedures', 'Institutional Quality Assurance Cell (IQAC)']} />
-          <Dropdown title="Admissions" classes_title={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5`} items={['Why Admission at CUB?', 'Undergraduate Admission', 'Postgraduate Admission', 'Scholarship', 'Credit Transfer', 'FAQs']} />
-          <Dropdown title="News And Events" classes_title={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5`} items={['Announcements', 'News']} />
+          <Dropdown title="About Us" link="/about-us" classes_title={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5`} items={['Vision Mission', 'Leadership And Administration', 'Message from Chairman', 'Message from Vice Chancellor', 'Message from Pro Vice Chancellor', 'Collaboration', 'Awards And Achievements', 'Permanent Campus']} />
+          <Dropdown title="Academics" link="/academics" classes_title={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5`} items={['Schools', 'Departments', 'Centers And Institution', 'Fees And Payments', 'Policies And Procedures', 'Institutional Quality Assurance Cell (IQAC)']} />
+          <Dropdown title="Admissions" link="/admissions" classes_title={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5`} items={['Why Admission at CUB?', 'Undergraduate Admission', 'Postgraduate Admission', 'Scholarship', 'Credit Transfer', 'FAQs']} />
+          <Dropdown title="News And Events" link="/news-events" classes_title={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5`} items={['Announcements', 'News']} />
         </div>
 
         {isScrolled && (
@@ -121,10 +122,10 @@ const TertioryNav = () => {
             {/* Render mobile menu items here */}
             <div className="flex flex-col space-y-2 bg-red-500 z-50">
               {/* Mobile menu items */}
-              <MobileMenuItem title="About Us" items={['Vision Mission', 'Leadership And Administration', 'Message from Chairman', 'Message from Vice Chancellor', 'Message from Pro Vice Chancellor', 'Collaboration', 'Awards And Achievements', 'Permanent Campus']} />
-              <MobileMenuItem title="Academics" items={['Schools', 'Departments', 'Centers And Institution', 'Fees And Payments', 'Policies And Procedures', 'Institutional Quality Assurance Cell (IQAC)']} />
-              <MobileMenuItem title="Admissions" items={['Why Admission at CUB?', 'Undergraduate Admission', 'Postgraduate Admission', 'Scholarship', 'Credit Transfer', 'FAQs']} />
-              <MobileMenuItem title="News And Events" items={['Announcements', 'News']} />
+              <MobileMenuItem title="About Us" link='/about-us' items={['Vision Mission', 'Leadership And Administration', 'Message from Chairman', 'Message from Vice Chancellor', 'Message from Pro Vice Chancellor', 'Collaboration', 'Awards And Achievements', 'Permanent Campus']} />
+              <MobileMenuItem title="Academics" link='/academics' items={['Schools', 'Departments', 'Centers And Institution', 'Fees And Payments', 'Policies And Procedures', 'Institutional Quality Assurance Cell (IQAC)']} />
+              <MobileMenuItem title="Admissions" link='/admissions' items={['Why Admission at CUB?', 'Undergraduate Admission', 'Postgraduate Admission', 'Scholarship', 'Credit Transfer', 'FAQs']} />
+              <MobileMenuItem title="News And Events" link='/news-events' items={['Announcements', 'News']} />
             </div>
           </div>
         )}
@@ -135,15 +136,18 @@ const TertioryNav = () => {
 
 
 
-const MobileMenuItem = ({ title, items, }) => {
+const MobileMenuItem = ({ title, items, link}) => {
   return (
     <div className="group relativ">
-      <button className={`flex flex-grow-1 text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5 z-50`}>
-        {title} ▼
-      </button>
+        <a href={link}>
+            <button className={`flex flex-grow-1 text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5 z-50`}>
+                {title} ▼
+            </button>
+        </a>
+
       <div className="absolute hidden bg-white text-black group-hover:block z-50">
         {items.map((item, index) => (
-          <a key={index} href="#" className="block px-4 py-2 z-50">
+          <a key={index} href={link} className="block px-4 py-2 z-50">
             {item}
           </a>
         ))}
@@ -153,15 +157,17 @@ const MobileMenuItem = ({ title, items, }) => {
   );
 };
 
-const Dropdown = ({ title, items, classes_title }) => {
+const Dropdown = ({ title, items, classes_title, link }) => {
   return (
     <div className="group relative">
-      <button className={`${classes_title}`}>
-        {title} ▼
-      </button>
+        <a href={link}>
+            <button className={`${classes_title}`}>
+                {title} ▼
+            </button>
+        </a>
       <div className="absolute hidden bg-white text-black group-hover:block z-50">
         {items.map((item, index) => (
-          <a key={index} href="#" className="block px-4 py-2 hover:bg-blue-200">
+          <a key={index} href={link} className="block px-4 py-2 hover:bg-blue-200">
             {item}
           </a>
         ))}
@@ -171,8 +177,3 @@ const Dropdown = ({ title, items, classes_title }) => {
 };
 
 export default TertioryNav;
-
-
-
-
-// TertioryNav
