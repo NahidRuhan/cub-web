@@ -5,6 +5,7 @@ import Error from "../pages/error/Error";
 import AboutUs from "../pages/About/AboutUs";
 import Academics from "../pages/academics/Academics";
 import Admissions from "../pages/admissions/Admissions";
+import EventsNews from "../pages/news/EventsNews";
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
             {
                 path: '/admissions',
                 element: <Admissions></Admissions>
+            },
+            {
+                path: '/news-events',
+                element: <EventsNews></EventsNews>,
+                loader: () => fetch('/news.json')
             },
         ]
     }

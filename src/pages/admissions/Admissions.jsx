@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
+import Scholarship from "../home/Scholarship";
+import { IoMdArrowDropright } from "react-icons/io";
+
 
 const Admissions = () => {
     return (
@@ -83,6 +86,40 @@ const Admissions = () => {
        
     </div>
 
+    <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10">
+        <h1 className="font-normal font-roboto text-4xl mb-10 text-red-500">Postgraduate Admission</h1>
+        <div className="grid grid-cols-2 gap-3">
+            <div className="">
+                <p className="font-normal text-base">The advantage of Postgraduate study is that it allows students to enter employment with additional skills and knowledge. One of the benefits of a Postgraduate research degree and the purpose of research is the output of original contributions to knowledge. The degree can demonstrate capability and tenacity to undertake an extended piece of investigative work.</p>
+                <div className="flex gap-3">
+                    <div className="mt-10"><button className="btn btn-error text-white hover:bg-blue-500">Apply Now</button></div>
+                    <div className="mt-10"><button className="btn btn-error text-white hover:bg-blue-500">Admission Requirements</button></div>
+                </div>
+                    <div className="mt-5"><button className="btn btn-error text-white hover:bg-blue-500">Waiver for Postgraduate Programs</button></div>
+                
+            </div>
+            <div>
+                <h1 className="p-2 bg-slate-300 font-bold text-base">Postgraduate Programs</h1>
+            </div>
+
+        </div>
+    </div>
+    <Scholarship></Scholarship>
+    <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10">
+        <h1 className="font-normal font-roboto text-4xl mb-10 text-red-500">International Students’ Admissions</h1>
+        <div className="grid grid-cols-2 gap-3">
+            <div className="">
+                <p className="font-normal text-base">Canadian University Of Bangladesh personifies a broad portrayal of states and cultures from all over the world in a single platform. International Students are given special attention and care to make the foreign students feel at home. Our stature regarding International Students comes firstly from an excellent broad-based education and the factual commitment we provide to every pupil.</p>
+                    <div className="mt-5"><button className="btn btn-error text-white hover:bg-blue-500">View More<IoMdArrowDropright className="text-2xl" />
+</button></div>
+                
+            </div>
+            <div>
+                <h1 className="p-2 bg-slate-300 font-bold text-base">International Students’ Admissions</h1>
+            </div>
+
+        </div>
+    </div>
 
             
         </div>
