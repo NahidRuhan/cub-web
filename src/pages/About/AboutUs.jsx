@@ -2,12 +2,14 @@ import { Link } from "react-router-dom";
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import permanentCampus from '../../assets/permanent campus.jpeg'
+import TertioryNav from "../../shared/TertioryNav";
 
 const AboutUs = () => {
     return (
         <div>
             <LogoNav></LogoNav>
             <SecondaryNav></SecondaryNav>
+            <TertioryNav></TertioryNav>
             <div>
         <img
           className="w-full h-96"

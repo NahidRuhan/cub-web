@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import Faculty from "../../shared/Faculty";
+import TertioryNav from "../../shared/TertioryNav";
 
 const Cse = () => {
     const faculty = [
@@ -67,6 +68,7 @@ const Cse = () => {
 
             <LogoNav></LogoNav>
             <SecondaryNav></SecondaryNav>
+            <TertioryNav></TertioryNav>
             <div>
         <img
           className="w-full h-96"

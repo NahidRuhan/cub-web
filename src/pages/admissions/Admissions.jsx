@@ -3,6 +3,7 @@ import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import Scholarship from "../home/Scholarship";
 import { IoMdArrowDropright } from "react-icons/io";
+import TertioryNav from "../../shared/TertioryNav";
 
 
 const Admissions = () => {
@@ -11,6 +12,7 @@ const Admissions = () => {
 
 <LogoNav></LogoNav>
             <SecondaryNav></SecondaryNav>
+            <TertioryNav></TertioryNav>
             <div>
         <img
           className="w-full h-96"

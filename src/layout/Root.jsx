@@ -1,13 +1,13 @@
 import { Outlet, ScrollRestoration } from "react-router-dom";
-import PrimaryNav from "../shared/PrimaryNav";
 import Footer from "../shared/Footer";
+// import TertioryNav from "../shared/TertioryNav";
 
 
 
 const Root = () => {
     return (
         <div>
-            <PrimaryNav></PrimaryNav>
+            {/* <TertioryNav></TertioryNav> */}
             <Outlet></Outlet>
             <Footer></Footer>
             <ScrollRestoration></ScrollRestoration>

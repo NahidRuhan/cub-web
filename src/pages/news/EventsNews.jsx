@@ -2,6 +2,7 @@ import { Link, useLoaderData } from "react-router-dom";
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import NewsComponent from "../../shared/NewsComponent";
+import TertioryNav from "../../shared/TertioryNav";
 
 const EventsNews = () => {   
 
@@ -13,6 +14,7 @@ const EventsNews = () => {
             
 <LogoNav></LogoNav>
             <SecondaryNav></SecondaryNav>
+            <TertioryNav></TertioryNav>
             <div>
         <img
           className="w-full h-96"

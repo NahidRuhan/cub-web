@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import { useState } from 'react';
+import TertioryNav from "../../shared/TertioryNav";
 
 
 const Academics = () => {
@@ -17,6 +18,7 @@ const Academics = () => {
         <div>
             <LogoNav></LogoNav>
             <SecondaryNav></SecondaryNav>
+            <TertioryNav></TertioryNav>
             <div>
         <img
           className="w-full h-96"
