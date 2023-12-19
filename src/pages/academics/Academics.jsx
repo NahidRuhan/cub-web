@@ -35,7 +35,7 @@ const Academics = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">
 
 
-        <div onClick={()=>navigate('/academics/cse')}
+        <div onClick={()=>navigate('/academics/departments/cse')}
       className="p-5 bg-slate-100 shadow-xl cursor-pointer relative overflow-hidden"
       onMouseEnter={() => setIsHoveredCSE(true)}
       onMouseLeave={() => setIsHoveredCSE(false)}

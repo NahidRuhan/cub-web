@@ -3,64 +3,43 @@ import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import Faculty from "../../shared/Faculty";
 
-const Cse = () => {
+const English = () => {
     const faculty = [
         {
-            img: "https://canadianuv.netlify.app/AllImage/Faculties/CSE/Md.%20Hasanuzzaman.png",
-            name: "Md Hasanuzzaman",
-            title: " ",
-            department: "Department of Computer Science and Engineering",
-            university: "Canadian University of Bangladesh"
-        },
-        {
-            img: "https://canadianuv.netlify.app/AllImage/Faculties/CSE/Md.%20Ashraful%20Kabir.jpg",
-            name: "Md. Ashraful Kabir",
+            img: "https://canadianuv.netlify.app/AllImage/Faculties/Department%20of%20English/shahbaz.jpg",
+            name: "Shahbaz Khan",
             title: "Lecturer",
-            department: "Department of Computer Science and Engineering",
+            department: "Department of English",
             university: "Canadian University of Bangladesh"
         },
         {
-            img: "https://canadianuv.netlify.app/AllImage/Faculties/CSE/Tanjina%20Oriana.jpg",
-            name: "Tanjina Oriana",
-            title: " ",
-            department: "Department of Computer Science and Engineering",
+            img: "https://canadianuv.netlify.app/Images/NoProfile.png",
+            name: "Adiba Sayeed",
+            title: "Adjunct Faculty",
+            department: "Department of English",
             university: "Canadian University of Bangladesh"
         },
         {
-            img: "https://canadianuv.netlify.app/AllImage/Faculties/CSE/Sayor%20Ajfar%20Aaron.jpg",
-            name: "Sayor Ajfar Aaron",
+            img: "https://canadianuv.netlify.app/Images/NoProfile.png",
+            name: "Md. Abdullah Al Mamun",
+            title: "Adjunct Faculty",
+            department: "Department of English",
+            university: "Canadian University of Bangladesh"
+        },
+        {
+            img: "https://canadianuv.netlify.app/Images/NoProfile.png",
+            name: "Musrat Alam",
+            title: "Adjunct Lecturer",
+            department: "Department of English",
+            university: "Canadian University of Bangladesh"
+        },
+        {
+            img: "https://canadianuv.netlify.app/Images/NoProfile.png",
+            name: "Priti Paul",
             title: "Lecturer",
-            department: "Department of Computer Science and Engineering",
+            department: "Department of English",
             university: "Canadian University of Bangladesh"
         },
-        {
-            img: "https://canadianuv.netlify.app/AllImage/Faculties/CSE/Sumayra%20Islam.jpg",
-            name: "Sumayra Islam",
-            title: "Lecturer",
-            department: "Department of Computer Science and Engineering",
-            university: "Canadian University of Bangladesh"
-        },
-        {
-            img: "https://canadianuv.netlify.app/AllImage/Faculties/CSE/Arif%20Rabbani.jpg",
-            name: "Arif Rabbani",
-            title: "Adjunct Faculty",
-            department: "Department of Computer Science and Engineering",
-            university: "Canadian University of Bangladesh"
-        },
-        {
-            img: "https://canadianuv.netlify.app/AllImage/Faculties/CSE/Ashikur%20Rahman.png",
-            name: "Ashikur Rahman",
-            title: "Adjunct Faculty",
-            department: "Department of Computer Science and Engineering",
-            university: "Canadian University of Bangladesh"
-        },
-        {
-            img: "https://canadianuv.netlify.app/AllImage/Faculties/CSE/Sakib%20Bin%20Asad.jpg",
-            name: "Sakib Bin Asad",
-            title: "Adjunct Faculty",
-            department: "Department of Computer Science and Engineering",
-            university: "Canadian University of Bangladesh"
-        }
     ]
     return (
         <div>
@@ -82,14 +61,14 @@ const Cse = () => {
             <p>/</p>
             <Link to='/academics'><p>Departments</p></Link>
             <p>/</p>
-            <p>CSE</p>
+            <p>English</p>
         </div>
         </div>
 
         <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 flex flex-col gap-5">  
         <div>
             <h1 className="font-normal text-2xl text-red-500 font-roboto pb-3">Goals and Objectives</h1>
-            <p className="text-base font-normal font-nunito">The Department of Computer Science and Engineering strives to inspire excellence in the creation, application and dissemination of knowledge in computer science and engineering through comprehensive educational programs; research in collaboration with industry, NGOs, and government; diffusion through scholarly publications, and service to the national and international community.</p>
+            <p className="text-base font-normal font-nunito">The Department of English at the Canadian University of Bangladesh is dedicated to fostering academic excellence in English literature and linguistics. It aims to nurture critical reading and writing skills, and encourage critical thinking. By instilling a profound appreciation for language and culture, our objective is to equip students with the tools to generate knowledge and understanding about the diverse concepts, and contribute to the academic community.</p>
         </div>
         <div>
             <h1 className="font-normal text-2xl text-red-500 font-roboto pb-3">Mission</h1>
@@ -113,10 +92,10 @@ const Cse = () => {
         <div>
             <h1 className="font-normal text-2xl text-red-500 font-roboto pb-3">Achievements:</h1>
             <ul className="list-disc px-5">
-<li className="mb-2">Developed the nation’s first nanosatellite which led Bangladesh into space-age.</li>
-<li className="mb-2">Student teams became champions in the “Sustainable Tourism” and “Violence against Women” categories of the 2016 National Hackathon.
+<li className="mb-2">The Department of English has successfully established connections with many of the academic scholars of the concerned field. The Department organized a webinar on ‘A comparative analysis between themes and forms of Bengali comics produced in India and Bangladesh’ with Dr. Pritesh Chakraborty, Assistant Professor of English, Acharya Sukumar Sen Mahavidyalaya, West Bengal, who is also a Fulbright Scholar of New York University.</li>
+<li className="mb-2">The Department hosted a session on Career development and guidelines for fresh graduates entering the workforce with Dr. Syed Manzoorol Islam, a renowned Bangladeshi critic, writer and former professor of University of Dhaka.
 </li>
-<li className="mb-2">Won best paper award in the 19th International Conference on Computer and Information Technology, ICCIT 2016.
+<li className="mb-2">The Department boasts a vibrant and engaging English club named Carpe Diem. The clubs name, derived from the Latin phrase meaning seize the day, reflects its mission to encourage members to explore literature fearlessly. This dynamic club serves as a platform for literature and cultural enthusiasts. Under the department&apos;s umbrella, Carpe Diem organizes regular literary events, discussions, workshops and creative art performances. The club organized ‘Unleash your proficiency with Duolingo’ which featured esteemed speaker Nafiza Rahman Mou. This event ignited passion for linguistic excellence and motivation to take their language skills to new heights.
 </li>
 
 </ul>
@@ -131,4 +110,4 @@ const Cse = () => {
     );
 };
 
-export default Cse;
+export default English;

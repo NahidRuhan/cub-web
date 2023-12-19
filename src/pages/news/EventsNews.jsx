@@ -13,12 +13,18 @@ const EventsNews = () => {
             
 <LogoNav></LogoNav>
             <SecondaryNav></SecondaryNav>
-
-      <div className=" bg-slate-300 py-5">
+            <div>
+        <img
+          className="w-full h-96"
+          src="https://i.ibb.co/g9cfVbK/polygonal19.jpg"
+          alt=""
+        />
+      </div> 
+      <div className=" bg-slate-300">
         <div className="flex gap-3 mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl">
             <Link to='/'><p className="hover:underline">Home</p></Link>
             <p>/</p>
-            <p>News and Events</p>
+            <p>News And Events</p>
         </div>
         </div>
         

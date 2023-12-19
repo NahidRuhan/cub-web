@@ -6,6 +6,8 @@ import AboutUs from "../pages/About/AboutUs";
 import Academics from "../pages/academics/Academics";
 import Admissions from "../pages/admissions/Admissions";
 import EventsNews from "../pages/news/EventsNews";
+import Cse from "../pages/academics/Cse";
+import English from "../pages/academics/English";
 
 
 const router = createBrowserRouter([
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
             {
                 path: '/academics',
                 element: <Academics></Academics>
+            },
+            {
+                path: '/academics/departments/cse',
+                element: <Cse></Cse>
+            },
+            {
+                path: '/academics/departments/english',
+                element: <English></English>
             },
             {
                 path: '/admissions',
