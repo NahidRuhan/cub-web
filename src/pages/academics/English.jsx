@@ -59,9 +59,9 @@ const English = () => {
         <div className="flex gap-3 mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl">
             <Link to='/'><p className="hover:underline">Home</p></Link>
             <p>/</p>
-            <Link to='/academics'><p>Academics</p></Link>
+            <Link to='/academics'><p className="hover:underline">Academics</p></Link>
             <p>/</p>
-            <Link to='/academics'><p>Departments</p></Link>
+            <Link to='/academics'><p className="hover:underline">Departments</p></Link>
             <p>/</p>
             <p>English</p>
         </div>

@@ -8,6 +8,7 @@ import Admissions from "../pages/admissions/Admissions";
 import EventsNews from "../pages/news/EventsNews";
 import Cse from "../pages/academics/Cse";
 import English from "../pages/academics/English";
+import Law from "../pages/academics/Law";
 
 
 const router = createBrowserRouter([
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
             {
                 path: '/academics/departments/english',
                 element: <English></English>
+            },
+            {
+                path: '/academics/departments/law',
+                element: <Law></Law>
             },
             {
                 path: '/admissions',

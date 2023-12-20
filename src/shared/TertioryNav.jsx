@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 
 
 const TertioryNav = () => {
+  
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -49,7 +50,7 @@ const TertioryNav = () => {
   }, []);
 
   return (
-    <nav className={`${isSticky ? 'bg-red-600 p-4 fixed top-0 left-0 w-full z-50' : 'bg-red-600 p-4 z-50'}`}>
+    <nav className={`${isSticky ? 'bg-[#DC143C] p-4 fixed top-0 left-0 w-full z-50' : 'bg-[#DC143C] p-4 z-50'}`}>
     {/* <nav className='navbar navbar-expand-lg navbar-dark bg-red-600 p-4 fixed top-0 left-0 w-full'> */}
       <div className="container mx-auto flex justify-between items-center">
         {isScrolled && (
@@ -92,7 +93,7 @@ const TertioryNav = () => {
         </div>
 
         {isScrolled && (
-            <button className='btn hover:bg-red-900 bg-red-700 pl-5'> Apply Now</button>
+            <button className='btn hover:bg-red-900 bg-red-700 pl-5 text-white'> Apply Now</button>
               
           )}
 

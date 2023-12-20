@@ -62,7 +62,10 @@ const Admissions = () => {
 
 <div className="bg-red-500 h-screen">
     <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10">
+
         <h1 className="font-normal text-4xl text-white py-10">Undergraduate Admissions</h1>
+
+        
 
         <div className="flex flex-row items-center">
             <div className="basis-1/2">

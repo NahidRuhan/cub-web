@@ -60,7 +60,11 @@ const AboutUs = () => {
 
         <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 text-logoRed font-nunito">
 
+<div className='lg:w-max'>
 <h1 className="font-normal text-4xl mb-5 font-roboto">Mission</h1>
+        <hr className='w-auto h-1  bg-[#F4253F]' />
+    </div>
+
 
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
 <div>
@@ -82,8 +86,10 @@ const AboutUs = () => {
 
         <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 text-logoRed font-nunito">
 
-            <h1 className="font-normal text-4xl mb-5 font-roboto">Vision</h1>
-
+        <div className='lg:w-max'>
+<h1 className="font-normal text-4xl mb-5 font-roboto">Vision</h1>
+        <hr className='w-auto h-1  bg-[#F4253F]' />
+    </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
             <div>
   <ul className="list-disc px-5">

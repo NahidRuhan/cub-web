@@ -106,7 +106,7 @@ const Academics = () => {
     </div>
 
 
-    <div onClick={()=>navigate('/academics/departments/eee')}
+    <div onClick={()=>navigate('/academics/departments/cse')}
       className="p-5 bg-slate-100 shadow-xl cursor-pointer relative overflow-hidden"
       onMouseEnter={() => setIsHoveredEEE(true)}
       onMouseLeave={() => setIsHoveredEEE(false)}
@@ -128,7 +128,7 @@ const Academics = () => {
       />
     </div>
 
-    <div onClick={()=>navigate('/academics/departments/general')}
+    <div onClick={()=>navigate('/academics/departments/cse')}
       className="p-5 bg-slate-100 shadow-xl cursor-pointer relative overflow-hidden"
       onMouseEnter={() => setIsHoveredGeneral(true)}
       onMouseLeave={() => setIsHoveredGeneral(false)}
