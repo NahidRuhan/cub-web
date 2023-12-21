@@ -4,8 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 const TertioryNav = () => {
-  const navigate  = useNavigate();
-  
+  const navigate = useNavigate();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -122,9 +121,8 @@ const TertioryNav = () => {
                 </svg>
               </button>
             </div>
-            {/* Render mobile menu items here */}
-            <div className="flex flex-col space-y-2 bg-red-500 z-50">
-              {/* Mobile menu items */}
+
+            <div className={`flex flex-col space-y-2 ${mobileMenuOpen ? 'block' : 'hidden'} bg-red-500 z-50`}>
               <MobileMenuItem title="About Us" link='/about-us' items={['Vision Mission', 'Leadership And Administration', 'Message from Chairman', 'Message from Vice Chancellor', 'Message from Pro Vice Chancellor', 'Collaboration', 'Awards And Achievements', 'Permanent Campus']} />
               <MobileMenuItem title="Academics" link='/academics' items={['Schools', 'Departments', 'Centers And Institution', 'Fees And Payments', 'Policies And Procedures', 'Institutional Quality Assurance Cell (IQAC)']} />
               <MobileMenuItem title="Admissions" link='/admissions' items={['Why Admission at CUB?', 'Undergraduate Admission', 'Postgraduate Admission', 'Scholarship', 'Credit Transfer', 'FAQs']} />
@@ -143,14 +141,14 @@ const MobileMenuItem = ({ title, items, link}) => {
   return (
     <div className="group relativ">
         <a href={link}>
-            <button className={`flex flex-grow-1 text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5 z-50`}>
-                {title} ▼
-            </button>
+          <button className={`flex flex-grow-1 text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5 z-50`}>
+              {title} ▼
+          </button>
         </a>
 
       <div className="absolute hidden bg-white text-black group-hover:block z-50">
         {items.map((item, index) => (
-          <a key={index} href={link} className="block px-4 py-2 z-50">
+          <a key={index} href={link} className="block px-4 py-2 hover:bg-blue-200 z-50">
             {item}
           </a>
         ))}
@@ -164,9 +162,10 @@ const Dropdown = ({ title, items, classes_title, link }) => {
   return (
     <div className="group relative">
         <a href={link}>
-            <button className={`${classes_title}`}>
-                {title} ▼
-            </button>
+          <button className={`${classes_title}`}>
+              {/* {title} ▼ */}
+              {title}
+          </button>
         </a>
       <div className="absolute hidden bg-white text-black group-hover:block z-50">
         {items.map((item, index) => (
