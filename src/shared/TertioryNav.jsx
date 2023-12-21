@@ -1,8 +1,10 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 const TertioryNav = () => {
+  const navigate  = useNavigate();
   
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -93,7 +95,7 @@ const TertioryNav = () => {
         </div>
 
         {isScrolled && (
-            <button className='btn hover:bg-red-900 bg-red-700 pl-5 text-white'> Apply Now</button>
+            <button onClick={()=>navigate('/admissions')} className='btn hover:bg-red-900 bg-red-700 pl-5 text-white'> Apply Now</button>
               
           )}
 
