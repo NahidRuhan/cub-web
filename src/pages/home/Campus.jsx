@@ -1,12 +1,9 @@
+import { Carousel } from 'flowbite-react';
+import banner1 from '../../assets/campus1.jpg'
+import banner2 from '../../assets/campus2.jpg'
+import banner3 from '../../assets/campus3.jpg'
 
 const Campus = () => {
-
-    const handleButtonClick = (event, target) => {
-        event.preventDefault(); // Prevents the default behavior of the anchor link
-        // Your logic here, e.g., handle slide transition or other actions
-        // For example, you might want to update the active slide based on the button clicked
-        console.log(`Button clicked for slide ${target}`);
-      };
 
     return (
       
@@ -28,40 +25,13 @@ const Campus = () => {
                         </div>
                     </div>
 
-                    <div className="carousel w-full">
-                        
-  <div id="slide1" className="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" className="w-full" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-    <a href="#slide4" className="btn btn-circle" onClick={(e) => handleButtonClick(e, 'slide4')}>❮</a> 
-          <a href="#slide2" className="btn btn-circle" onClick={(e) => handleButtonClick(e, 'slide2')}>❯</a>
+                    <div className="h h-52">
+      <Carousel>
+        <img src={banner1} alt="..." />
+        <img src={banner2} alt="..." />
+        <img src={banner3} alt="..." />
+      </Carousel>
     </div>
-  </div> 
-  <div id="slide2" className="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" className="w-full" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide1" className="btn btn-circle" onClick={(e) => handleButtonClick(e, 'slide1')}>❮</a> 
-          <a href="#slide3" className="btn btn-circle" onClick={(e) => handleButtonClick(e, 'slide3')}>❯</a>
-    </div>
-  </div> 
-  <div id="slide3" className="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" className="w-full" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-
-      <a href="#slide2" className="btn btn-circle" onClick={(e) => handleButtonClick(e, 'slide2')}>❮</a> 
-          <a href="#slide4" className="btn btn-circle" onClick={(e) => handleButtonClick(e, 'slide4')}>❯</a>
-    </div>
-  </div> 
-  <div id="slide4" className="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" className="w-full" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-
-
-      <a href="#slide3" className="btn btn-circle" onClick={(e) => handleButtonClick(e, 'slide3')}>❮</a> 
-          <a href="#slide1" className="btn btn-circle" onClick={(e) => handleButtonClick(e, 'slide1')}>❯</a>
-    </div>
-  </div>
-</div>
 
 
                 </div>

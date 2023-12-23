@@ -4,6 +4,7 @@ import logo from "../assets/logo.svg"
 const Footer = () => {
     return (
         <>
+        
         <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl">
             <div className="flex justify-center">
                 <img className="w-40" src={logo} alt="" />

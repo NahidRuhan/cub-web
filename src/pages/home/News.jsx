@@ -12,7 +12,7 @@ const News = () => {
     return (
         <div>
             <h1 className="text-center text-red-500 font-normal text-4xl py-10">University News and Notices</h1>
-            <div className="flex gap-5 justify-center">
+            <div className="flex gap-5 justify-center pb-5">
             <div><button onClick={()=>{
             setLatest(true);
             setFeatured(false);

@@ -61,7 +61,14 @@ const Cse = () => {
             title: "Adjunct Faculty",
             department: "Department of Computer Science and Engineering",
             university: "Canadian University of Bangladesh"
-        }
+        },
+        // {
+        //     img: "https://i.ibb.co/d0WmvTc/Whats-App-Image-2023-12-21-at-1-49-58-PM.jpg",
+        //     name: "Sharifa Akhter Lopa",
+        //     title: "Labour Worker",
+        //     department: "Department of Computer Science and Engineering",
+        //     university: "Canadian University of Bangladesh"
+        // }
     ]
     return (
         <div>
@@ -71,8 +78,8 @@ const Cse = () => {
             <TertioryNav></TertioryNav>
             <div>
         <img
-          className="w-full h-96"
-          src="https://i.ibb.co/g9cfVbK/polygonal19.jpg"
+          className="w-full h-96 object-cover"
+          src="https://canadianuv.netlify.app/DepartmentThumb/CSE.jpg"
           alt=""
         />
       </div> 

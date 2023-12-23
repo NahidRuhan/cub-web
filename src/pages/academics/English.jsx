@@ -50,8 +50,8 @@ const English = () => {
             <TertioryNav></TertioryNav>
             <div>
         <img
-          className="w-full h-96"
-          src="https://i.ibb.co/g9cfVbK/polygonal19.jpg"
+          className="w-full h-96 object-cover"
+          src="https://canadianuv.netlify.app/DepartmentThumb/English.jpg"
           alt=""
         />
       </div> 
