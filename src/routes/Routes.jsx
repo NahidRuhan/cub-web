@@ -9,6 +9,8 @@ import EventsNews from "../pages/news/EventsNews";
 import Cse from "../pages/academics/Cse";
 import English from "../pages/academics/English";
 import Law from "../pages/academics/Law";
+import EEE from "../pages/academics/EEE";
+import General from "../pages/academics/General";
 
 
 const router = createBrowserRouter([
@@ -40,6 +42,14 @@ const router = createBrowserRouter([
             {
                 path: '/academics/departments/law',
                 element: <Law></Law>
+            },
+            {
+                path: '/academics/departments/eee',
+                element: <EEE></EEE>
+            },
+            {
+                path: '/academics/departments/general',
+                element: <General></General>
             },
             {
                 path: '/admissions',

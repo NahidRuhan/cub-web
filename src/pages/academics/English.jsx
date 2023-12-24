@@ -55,7 +55,7 @@ const English = () => {
           alt=""
         />
       </div> 
-      <div className=" bg-slate-300">
+      <div className=" bg-slate-300 hidden md:flex">
         <div className="flex gap-3 mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl">
             <Link to='/'><p className="hover:underline">Home</p></Link>
             <p>/</p>

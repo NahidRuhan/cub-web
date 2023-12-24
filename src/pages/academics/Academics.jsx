@@ -3,6 +3,8 @@ import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import { useState } from 'react';
 import TertioryNav from "../../shared/TertioryNav";
+import banner from '../../assets/academics.png'
+import general from '../../assets/general.jpg'
 
 
 const Academics = () => {
@@ -14,6 +16,7 @@ const Academics = () => {
   const navigate = useNavigate();
 
 
+
     return (
         <div>
             <LogoNav></LogoNav>
@@ -22,7 +25,7 @@ const Academics = () => {
             <div>
         <img
           className="w-full h-96"
-          src="https://i.ibb.co/g9cfVbK/polygonal19.jpg"
+          src={banner}
           alt=""
         />
       </div> 
@@ -106,7 +109,7 @@ const Academics = () => {
     </div>
 
 
-    <div onClick={()=>navigate('/academics/departments/cse')}
+    <div onClick={()=>navigate('/academics/departments/eee')}
       className="p-5 bg-slate-100 shadow-xl cursor-pointer relative overflow-hidden"
       onMouseEnter={() => setIsHoveredEEE(true)}
       onMouseLeave={() => setIsHoveredEEE(false)}
@@ -128,7 +131,7 @@ const Academics = () => {
       />
     </div>
 
-    <div onClick={()=>navigate('/academics/departments/cse')}
+    <div onClick={()=>navigate('/academics/departments/general')}
       className="p-5 bg-slate-100 shadow-xl cursor-pointer relative overflow-hidden"
       onMouseEnter={() => setIsHoveredGeneral(true)}
       onMouseLeave={() => setIsHoveredGeneral(false)}
@@ -136,7 +139,7 @@ const Academics = () => {
       <div className="flex flex-col gap-2">
         <img
           className="w-full h-72"
-          src="https://canadianuv.netlify.app/DepartmentThumb/English.jpg"
+          src={general}
           alt=""
           style={{ filter: isHoveredGeneral ? 'brightness(70%)' : 'brightness(100%)' }}
         />
