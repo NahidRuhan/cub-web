@@ -7,8 +7,8 @@ import TertioryNav from "../../shared/TertioryNav";
 const AboutUs = () => {
     return (
         <div>
-            <LogoNav></LogoNav>
             <SecondaryNav></SecondaryNav>
+            <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
             <div>
         <img

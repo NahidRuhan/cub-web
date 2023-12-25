@@ -116,8 +116,8 @@ const Law = () => {
     return (
         <div>
 
-<LogoNav></LogoNav>
-            <SecondaryNav></SecondaryNav>
+<SecondaryNav></SecondaryNav>
+            <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
             <div>
         <img

@@ -19,8 +19,8 @@ const Academics = () => {
 
     return (
         <div>
-            <LogoNav></LogoNav>
             <SecondaryNav></SecondaryNav>
+            <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
             <div>
         <img

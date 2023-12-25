@@ -87,14 +87,15 @@ const TertioryNav = () => {
         </button>
         
         <div className="hidden flex-grow lg:flex lg:justify-around lg:w-full space-x-5">
-          <Dropdown title="About Us" link="/about-us" classes_title={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5`} items={['Vision Mission', 'Leadership And Administration', 'Message from Chairman', 'Message from Vice Chancellor', 'Message from Pro Vice Chancellor', 'Collaboration', 'Awards And Achievements', 'Permanent Campus']} />
-          <Dropdown title="Academics" link="/academics" classes_title={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5`} items={['Schools', 'Departments', 'Centers And Institution', 'Fees And Payments', 'Policies And Procedures', 'Institutional Quality Assurance Cell (IQAC)']} />
-          <Dropdown title="Admissions" link="/admissions" classes_title={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5`} items={['Why Admission at CUB?', 'Undergraduate Admission', 'Postgraduate Admission', 'Scholarship', 'Credit Transfer', 'FAQs']} />
-          <Dropdown title="News And Events" link="/news-events" classes_title={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5`} items={['Announcements', 'News']} />
+          <Dropdown title="About Us" link="/about-us" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={['Vision Mission', 'Leadership And Administration', 'Message from Chairman', 'Message from Vice Chancellor', 'Message from Pro Vice Chancellor', 'Collaboration', 'Awards And Achievements', 'Permanent Campus']} />
+          <Dropdown title="Academics" link="/academics" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={['Schools', 'Departments', 'Centers And Institution', 'Fees And Payments', 'Policies And Procedures', 'Institutional Quality Assurance Cell (IQAC)']} />
+          <Dropdown title="Admissions" link="/admissions" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={['Why Admission at CUB?', 'Undergraduate Admission', 'Postgraduate Admission', 'Scholarship', 'Credit Transfer', 'FAQs']} />
+          <Dropdown title="News And Events" link="/news-events" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[]} />
+          <Dropdown title="Announcements" link="/announce" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[]} />
         </div>
 
         {isScrolled && (
-            <button onClick={()=>navigate('/admissions')} className='btn hover:bg-red-900 bg-red-700 pl-5 text-white'> Apply Now</button>
+            <button onClick={()=>navigate('/admissions')} className='btn hover:bg-red-900 bg-white text-black pl-5 '> Apply Now</button>
               
           )}
 
@@ -126,7 +127,7 @@ const TertioryNav = () => {
               <MobileMenuItem title="About Us" link='/about-us' items={['Vision Mission', 'Leadership And Administration', 'Message from Chairman', 'Message from Vice Chancellor', 'Message from Pro Vice Chancellor', 'Collaboration', 'Awards And Achievements', 'Permanent Campus']} />
               <MobileMenuItem title="Academics" link='/academics' items={['Schools', 'Departments', 'Centers And Institution', 'Fees And Payments', 'Policies And Procedures', 'Institutional Quality Assurance Cell (IQAC)']} />
               <MobileMenuItem title="Admissions" link='/admissions' items={['Why Admission at CUB?', 'Undergraduate Admission', 'Postgraduate Admission', 'Scholarship', 'Credit Transfer', 'FAQs']} />
-              <MobileMenuItem title="News And Events" link='/news-events' items={['Announcements', 'News']} />
+              <MobileMenuItem title="News And Events" link='/news-events' items={[]} />
             </div>
           </div>
         )}
@@ -139,7 +140,7 @@ const TertioryNav = () => {
 
 const MobileMenuItem = ({ title, items, link}) => {
   return (
-    <div className="group relativ">
+    <div className="group relative">
         <a href={link}>
           <button className={`flex flex-grow-1 text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5 z-50`}>
               {title} ▼

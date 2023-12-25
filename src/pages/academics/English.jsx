@@ -45,8 +45,8 @@ const English = () => {
     return (
         <div>
 
+<SecondaryNav></SecondaryNav>
             <LogoNav></LogoNav>
-            <SecondaryNav></SecondaryNav>
             <TertioryNav></TertioryNav>
             <div>
         <img

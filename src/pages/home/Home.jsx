@@ -11,8 +11,8 @@ import TertioryNav from "../../shared/TertioryNav";
 const Home = () => {
     return (
         <div>
-            <LogoNav></LogoNav>
             <SecondaryNav></SecondaryNav>
+            <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
             <Banner></Banner>
             <Message></Message>

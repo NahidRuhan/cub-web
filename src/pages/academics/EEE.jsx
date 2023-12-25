@@ -53,8 +53,8 @@ const EEE = () => {
     
     return (
         <div>
-                        <LogoNav></LogoNav>
             <SecondaryNav></SecondaryNav>
+            <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
             <div>
         <img
@@ -126,4 +126,5 @@ const EEE = () => {
     );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default EEE;

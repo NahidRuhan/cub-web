@@ -12,8 +12,8 @@ const EventsNews = () => {
         <div>
 
             
-<LogoNav></LogoNav>
-            <SecondaryNav></SecondaryNav>
+<SecondaryNav></SecondaryNav>
+            <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
             <div>
         <img
