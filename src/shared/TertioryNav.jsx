@@ -51,7 +51,7 @@ const TertioryNav = () => {
   }, []);
 
   return (
-    <nav className={`${isSticky ? 'bg-[#DC143C] p-4 fixed top-0 left-0 w-full z-50' : 'bg-[#DC143C] p-4 z-50'}`}>
+    <nav className={`${isSticky ? 'bg-logoRed p-4 fixed top-0 left-0 w-full z-50' : 'bg-logoRed p-4 z-50'}`}>
     {/* <nav className='navbar navbar-expand-lg navbar-dark bg-red-600 p-4 fixed top-0 left-0 w-full'> */}
       <div className="container mx-auto flex justify-between items-center">
         {isScrolled && (
@@ -91,7 +91,7 @@ const TertioryNav = () => {
           <Dropdown title="Academics" link="/academics" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={['Schools', 'Departments', 'Centers And Institution', 'Fees And Payments', 'Policies And Procedures', 'Institutional Quality Assurance Cell (IQAC)']} />
           <Dropdown title="Admissions" link="/admissions" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={['Why Admission at CUB?', 'Undergraduate Admission', 'Postgraduate Admission', 'Scholarship', 'Credit Transfer', 'FAQs']} />
           <Dropdown title="News And Events" link="/news-events" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[]} />
-          <Dropdown title="Announcements" link="/announce" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[]} />
+          <Dropdown title="Announcements" link="/announcements" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[]} />
         </div>
 
         {isScrolled && (

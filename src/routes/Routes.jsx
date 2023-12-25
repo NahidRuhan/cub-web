@@ -11,6 +11,7 @@ import English from "../pages/academics/English";
 import Law from "../pages/academics/Law";
 import EEE from "../pages/academics/EEE";
 import General from "../pages/academics/General";
+import Announcements from "../pages/announcements/Announcements";
 
 
 const router = createBrowserRouter([
@@ -59,6 +60,11 @@ const router = createBrowserRouter([
                 path: '/news-events',
                 element: <EventsNews></EventsNews>,
                 loader: () => fetch('/news.json')
+            },
+            {
+                path: '/announcements',
+                element: <Announcements></Announcements>,
+                loader: () => fetch('/announcement.json')
             },
         ]
     }

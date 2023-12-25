@@ -1,4 +1,3 @@
-import Announcement from "./Announcement";
 import Banner from "./Banner";
 import Campus from "./Campus";
 import LogoNav from "../../shared/LogoNav";
@@ -7,6 +6,7 @@ import News from "./News";
 import Scholarship from "./Scholarship";
 import SecondaryNav from "../../shared/SecondaryNav";
 import TertioryNav from "../../shared/TertioryNav";
+import Partners from "./Partners";
 
 const Home = () => {
     return (
@@ -16,10 +16,10 @@ const Home = () => {
             <TertioryNav></TertioryNav>
             <Banner></Banner>
             <Message></Message>
-            <Announcement></Announcement>
             <Scholarship></Scholarship>
-            <Campus></Campus>
             <News></News>
+            <Campus></Campus>
+            <Partners></Partners>
         </div>
     );
 };

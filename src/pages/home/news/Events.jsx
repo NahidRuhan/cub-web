@@ -9,7 +9,7 @@ const Events = () => {
     return (
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
 
-<div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[500px]">
+<div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[600px]">
   <div className="flex flex-col gap-2">
     <img className="w-full h-72" src={events1} alt="" />
     <h2 className="font-bold text-2xl font-roboto text-logoRed">1st Convocation of CUB</h2>
@@ -20,7 +20,7 @@ const Events = () => {
 
 
 
-<div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[500px]">
+<div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[600px]">
   <div className="flex flex-col gap-2">
     <img className="w-full h-72" src={events2} alt="" />
     <h2 className="font-bold text-2xl font-roboto text-logoRed">Open session on Meet the Masters held at CUB</h2>
@@ -30,7 +30,7 @@ const Events = () => {
 </div>
 
 
-<div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[500px]">
+<div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[600px]">
   <div className="flex flex-col gap-2">
     <img className="w-full h-72" src={events3} alt="" />
     <h2 className="font-bold text-2xl font-roboto text-logoRed">Computer Professionals Program held at CUB</h2>
@@ -40,7 +40,7 @@ const Events = () => {
 </div>
 
 
-<div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[500px]">
+<div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[600px]">
   <div className="flex flex-col gap-2">
     <img className="w-full h-72" src={events4} alt="" />
     <h2 className="font-bold text-2xl font-roboto text-logoRed">CUB hosts Entrepreneurship Readiness</h2>

@@ -8,7 +8,7 @@ const Latest = () => {
     return (
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
 
-      <div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[700px] xl:h-[550px] ">
+      <div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[750px] xl:h-[650px] ">
         <div className="flex flex-col gap-2">
           <img className="w-full h-72" src={latest1} alt="" />
           <h2 className="font-bold text-2xl font-roboto text-logoRed">CUB and Texas A&M University Lab Sign Memorandum of Understanding to Promote Collaboration in Education and Research</h2>
@@ -19,7 +19,7 @@ const Latest = () => {
 
       
 
-      <div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[700px] xl:h-[550px]">
+      <div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[700px] xl:h-[650px]">
         <div className="flex flex-col gap-2">
           <img className="w-full h-72" src={latest2} alt="" />
           <h2 className="font-bold text-2xl font-roboto text-logoRed">এইচএসসির কৃতি শিক্ষার্থীদের সংবর্ধনা দিল কানাডিয়ান ইউনিভার্সিটি অব বাংলাদেশ</h2>
@@ -29,7 +29,7 @@ const Latest = () => {
       </div>
 
 
-      <div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[700px] xl:h-[550px]">
+      <div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[700px] xl:h-[650px]">
         <div className="flex flex-col gap-2">
           <img className="w-full h-72" src={latest3} alt="" />
           <h2 className="font-bold text-2xl font-roboto text-logoRed">বাংলাদেশের বিজয়ের ৫২ বছর পূর্তি উপলক্ষে কানাডিয়ান ইউনিভার্সিটি অব বাংলাদেশে বিশেষ আলোচনা</h2>
@@ -39,7 +39,7 @@ const Latest = () => {
       </div>
 
 
-      <div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[700px] xl:h-[550px]">
+      <div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[700px] xl:h-[650px]">
         <div className="flex flex-col gap-2">
           <img className="w-full h-72" src={host} alt="" />
           <h2 className="font-bold text-2xl font-roboto text-logoRed">CUB and DSE Successfully Hosted Seminar on Corporate Sustainability</h2>

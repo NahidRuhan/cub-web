@@ -10,7 +10,7 @@ const News = () => {
     const [events,setEvents] = useState(false);
 
     return (
-        <div>
+        <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10">
             <h1 className="text-center text-red-500 font-normal text-4xl py-10">University News and Notices</h1>
             <div className="flex gap-5 justify-center pb-5">
             <div><button onClick={()=>{
