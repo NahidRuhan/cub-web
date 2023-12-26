@@ -51,8 +51,8 @@ const TertioryNav = () => {
   }, []);
 
   return (
-    <nav className={`${isSticky ? 'bg-logoRed p-4 fixed top-0 left-0 w-full z-50' : 'bg-logoRed p-4 z-50'}`}>
-    {/* <nav className='navbar navbar-expand-lg navbar-dark bg-red-600 p-4 fixed top-0 left-0 w-full'> */}
+    <nav className={`${isSticky ? 'bg-logoRed p-1 fixed top-0 left-0 w-full z-50' : 'bg-logoRed p-1 z-50'}`}>
+    {/* <nav className='navbar navbar-expand-lg navbar-dark bg-red-600 p-1 fixed top-0 left-0 w-full'> */}
       <div className="container mx-auto flex justify-between items-center">
         {isScrolled && (
             <a href='/'>
@@ -95,12 +95,12 @@ const TertioryNav = () => {
         </div>
 
         {isScrolled && (
-            <button onClick={()=>navigate('/admissions')} className='btn hover:bg-red-900 bg-white text-black pl-5 '> Apply Now</button>
+            <button onClick={()=>navigate('/admissions')} className='btn hover:bg-green-900 bg-white text-black pl-5 '> Apply Now</button>
               
           )}
 
         {mobileMenuOpen && (
-          <div className="lg:hidden fixed top-0 right-0 bottom-0 bg-crimson text-white p-4">
+          <div className="lg:hidden fixed top-0 right-0 bottom-0 bg-crimson text-white p-1">
             <div className="flex justify-end">
               <button
                 className="text-white"
