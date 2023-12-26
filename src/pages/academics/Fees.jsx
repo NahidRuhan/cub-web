@@ -17,7 +17,7 @@ const Fees = () => {
             <div className="bg-logoRed text-white">
             <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 h-60 items-center">
 
-                <h1 className="text-6xl py-3">Fees and Payment</h1>
+                <h1 className="text-3xl md:text-4xl lg:text-6xl py-3">Fees and Payment</h1>
                 <div className="flex gap-3">
                 <Link to='/'><p className="hover:underline">Home</p></Link>
                 <p>/</p>
