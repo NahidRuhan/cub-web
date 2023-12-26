@@ -1,13 +1,13 @@
 import { Link, useNavigate } from "react-router-dom";
-import LogoNav from "../../shared/LogoNav";
-import SecondaryNav from "../../shared/SecondaryNav";
+import LogoNav from "../../../shared/LogoNav";
+import SecondaryNav from "../../../shared/SecondaryNav";
 import { useState } from 'react';
-import TertioryNav from "../../shared/TertioryNav";
-import banner from '../../assets/academics.png'
-import general from '../../assets/general.jpg'
+import TertioryNav from "../../../shared/TertioryNav";
+import banner from '../../../assets/academics.png'
+import general from '../../../assets/general.jpg'
 
 
-const Academics = () => {
+const Departments = () => {
   
   const [isHoveredCSE, setIsHoveredCSE] = useState(false);
   const [isHoveredEnglish, setIsHoveredEnglish] = useState(false);
@@ -41,7 +41,7 @@ const Academics = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">
 
 
-        <div onClick={()=>navigate('/academics/departments/cse')}
+        <div onClick={()=>window.location.href = 'https://cse.cub.edu.bd/'}
       className="p-5 bg-slate-100 shadow-xl cursor-pointer relative overflow-hidden"
       onMouseEnter={() => setIsHoveredCSE(true)}
       onMouseLeave={() => setIsHoveredCSE(false)}
@@ -64,7 +64,7 @@ const Academics = () => {
     </div>
 
 
-        <div onClick={()=>navigate('/academics/departments/english')}
+        <div onClick={()=>window.location.href = 'https://english.cub.edu.bd/'}
       className="p-5 bg-slate-100 shadow-xl cursor-pointer relative overflow-hidden"
       onMouseEnter={() => setIsHoveredEnglish(true)}
       onMouseLeave={() => setIsHoveredEnglish(false)}
@@ -87,7 +87,7 @@ const Academics = () => {
     </div>
 
 
-    <div onClick={()=>navigate('/academics/departments/law')}
+    <div onClick={()=>window.location.href = 'https://law.cub.edu.bd/'}
       className="p-5 bg-slate-100 shadow-xl cursor-pointer relative overflow-hidden"
       onMouseEnter={() => setIsHoveredLaw(true)}
       onMouseLeave={() => setIsHoveredLaw(false)}
@@ -110,7 +110,7 @@ const Academics = () => {
     </div>
 
 
-    <div onClick={()=>navigate('/academics/departments/eee')}
+    <div onClick={()=>window.location.href = 'https://eee.cub.edu.bd/'}
       className="p-5 bg-slate-100 shadow-xl cursor-pointer relative overflow-hidden"
       onMouseEnter={() => setIsHoveredEEE(true)}
       onMouseLeave={() => setIsHoveredEEE(false)}
@@ -164,4 +164,4 @@ const Academics = () => {
     );
 };
 
-export default Academics;
+export default Departments;

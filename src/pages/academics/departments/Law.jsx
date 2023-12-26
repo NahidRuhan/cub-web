@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import LogoNav from "../../shared/LogoNav";
-import SecondaryNav from "../../shared/SecondaryNav";
-import TertioryNav from "../../shared/TertioryNav";
-import Faculty from "../../shared/Faculty";
+import LogoNav from "../../../shared/LogoNav";
+import SecondaryNav from "../../../shared/SecondaryNav";
+import TertioryNav from "../../../shared/TertioryNav";
+import Faculty from "../../../shared/Faculty";
 
 const Law = () => {
 

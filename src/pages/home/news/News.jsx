@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Latest from "./news/Latest";
-import Featured from "./news/Featured";
-import Events from "./news/Events";
+import Latest from "./Latest";
+import Featured from "./Featured";
+import Events from "./Events";
 
 const News = () => {
 

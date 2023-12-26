@@ -3,17 +3,16 @@ import Root from "../layout/Root";
 import Home from "../pages/home/Home";
 import Error from "../pages/error/Error";
 import AboutUs from "../pages/About/AboutUs";
-import Academics from "../pages/academics/Academics";
 import Admissions from "../pages/admissions/Admissions";
-import EventsNews from "../pages/news/EventsNews";
-import Cse from "../pages/academics/Cse";
-import English from "../pages/academics/English";
-import Law from "../pages/academics/Law";
-import EEE from "../pages/academics/EEE";
-import General from "../pages/academics/General";
+import EventsNews from "../pages/news and events/EventsNews";
+import General from "../pages/academics/departments/General";
 import Announcements from "../pages/announcements/Announcements";
 import Schools from "../pages/academics/Schools";
 import Center from "../pages/academics/Center";
+import Fees from "../pages/academics/Fees";
+import Departments from "../pages/academics/departments/Departments";
+import Policy from "../pages/academics/Policy";
+import Iqac from "../pages/academics/Iqac";
 
 
 const router = createBrowserRouter([
@@ -31,28 +30,12 @@ const router = createBrowserRouter([
                 element: <AboutUs></AboutUs>
             },
             {
-                path: '/academics',
-                element: <Academics></Academics>
-            },
-            {
                 path: '/academics/schools',
                 element: <Schools></Schools>
             },
             {
-                path: '/academics/departments/cse',
-                element: <Cse></Cse>
-            },
-            {
-                path: '/academics/departments/english',
-                element: <English></English>
-            },
-            {
-                path: '/academics/departments/law',
-                element: <Law></Law>
-            },
-            {
-                path: '/academics/departments/eee',
-                element: <EEE></EEE>
+                path: '/academics/departments',
+                element: <Departments></Departments>
             },
             {
                 path: '/academics/departments/general',
@@ -61,6 +44,18 @@ const router = createBrowserRouter([
             {
                 path: '/academics/center-institutions',
                 element: <Center></Center>
+            },
+            {
+                path: '/academics/fees-payment',
+                element: <Fees></Fees>
+            },
+            {
+                path: '/academics/policy-procedure',
+                element: <Policy></Policy>
+            },
+            {
+                path: '/academics/iqac',
+                element: <Iqac></Iqac>
             },
             {
                 path: '/admissions',

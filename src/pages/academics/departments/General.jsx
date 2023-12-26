@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import banner from '../../assets/general.jpg'
-import LogoNav from '../../shared/LogoNav';
-import SecondaryNav from '../../shared/SecondaryNav';
-import TertioryNav from '../../shared/TertioryNav';
-import Faculty from '../../shared/Faculty';
+import banner from '../../../assets/general.jpg'
+import LogoNav from '../../../shared/LogoNav';
+import SecondaryNav from '../../../shared/SecondaryNav';
+import TertioryNav from '../../../shared/TertioryNav';
+import Faculty from '../../../shared/Faculty';
 
 const General = () => {
     const faculty = [
