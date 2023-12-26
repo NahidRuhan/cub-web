@@ -27,3 +27,13 @@
   padding: 0 5px; /* Add padding for text separation */
 }
 
+/* Add this CSS in your stylesheet */
+.slider-container {
+  max-width: 100%;
+  overflow: hidden; /* Hide any content that overflows the container */
+}
+
+.slider-container img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}

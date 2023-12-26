@@ -8,6 +8,7 @@ import general from '../../assets/general.jpg'
 
 
 const Academics = () => {
+  
   const [isHoveredCSE, setIsHoveredCSE] = useState(false);
   const [isHoveredEnglish, setIsHoveredEnglish] = useState(false);
   const [isHoveredLaw, setIsHoveredLaw] = useState(false);

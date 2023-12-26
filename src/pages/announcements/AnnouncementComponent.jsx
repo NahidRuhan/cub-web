@@ -9,7 +9,7 @@ const AnnouncementComponent = ({ announcement }) => {
         <div className="">
             <div className="flex flex-col gap-1 shadow-2xl h-80 md:h-96 lg:h-[400px] xl:h-72 p-7">
                 <p className="text-base font-medium">{title}</p>
-                <p className="text-sm break-all">{description}</p>
+                <p className="text-sm">{description}</p>
                 <p className="text-sm flex items-center gap-2">
                     <span><SiWindows /></span>{date}
                 </p>

@@ -1,15 +1,15 @@
 import { Outlet, ScrollRestoration } from "react-router-dom";
 import Footer from "../shared/Footer";
-// import TertioryNav from "../shared/TertioryNav";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 
 
 const Root = () => {
     return (
         <div>
-            {/* <TertioryNav></TertioryNav> */}
             <Outlet></Outlet>
             <Footer></Footer>
+            <ScrollToTopButton></ScrollToTopButton>
             <ScrollRestoration></ScrollRestoration>
         </div>
     );

@@ -12,6 +12,7 @@ import Law from "../pages/academics/Law";
 import EEE from "../pages/academics/EEE";
 import General from "../pages/academics/General";
 import Announcements from "../pages/announcements/Announcements";
+import Schools from "../pages/academics/Schools";
 
 
 const router = createBrowserRouter([
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
             {
                 path: '/academics',
                 element: <Academics></Academics>
+            },
+            {
+                path: '/academics/schools',
+                element: <Schools></Schools>
             },
             {
                 path: '/academics/departments/cse',

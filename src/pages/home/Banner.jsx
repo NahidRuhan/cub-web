@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div>
 
-<div className="h-[500px]">
+<div className="h-52 md:h-96 lg:h-[500px]">
       <Carousel>
         <img src={banner1} alt="..." />
         <img src={banner2} alt="..." />
