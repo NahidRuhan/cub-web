@@ -87,9 +87,9 @@ const TertioryNav = () => {
         </button>
         
         <div className="hidden flex-grow lg:flex lg:justify-around lg:w-full space-x-5">
-          <Dropdown title="About Us" link="/about-us" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={['Vision Mission', 'Leadership And Administration', 'Message from Chairman', 'Message from Vice Chancellor', 'Message from Pro Vice Chancellor', 'Collaboration', 'Awards And Achievements', 'Permanent Campus']} />
-          <Dropdown title="Academics" link="/academics" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={['Schools', 'Departments', 'Centers And Institution', 'Fees And Payments', 'Policies And Procedures', 'Institutional Quality Assurance Cell (IQAC)']} />
-          <Dropdown title="Admissions" link="/admissions" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={['Why Admission at CUB?', 'Undergraduate Admission', 'Postgraduate Admission', 'Scholarship', 'Credit Transfer', 'FAQs']} />
+          <Dropdown title="About Us" link="/about-us" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[{ name:'Vision Mission', link:'/about-us'}, { name:'Leadership And Administration', link:'/about-us/awards'}, { name:'Message from Chairman', link:'/about-us/chairmen-message/'}, { name:'Message from Vice Chancellor', link:'/about-us/vc-message/'}, { name:'Message from Pro Vice Chancellor', link:'/about-us/provc-message/'}, { name:'Collaboration', link:'/about-us/collaboration/'}, { name:'Awards And Achievements', link:'/about-us/awards/'}, { name:'Permanent Campus', link:'/about-us/permanent-campus/'}]} />
+          <Dropdown title="Academics" link="/academics" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[{ name:'Schools', link:'/academics'}, { name:'Departments', link:'/academics'}, { name:'Centers And Institution', link:'/academics'}, { name:'Fees And Payments', link:'/academics'}, { name:'Policies And Procedures', link:'/academics'}, { name:'Institutional Quality Assurance Cell (IQAC)', link:'/academics'}]} />
+          <Dropdown title="Admissions" link="/admissions" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[{ name:'Why Admission at CUB?', link:'/admissions'}, { name:'Undergraduate Admission', link:'/admissions'}, { name:'Postgraduate Admission', link:'/admissions'}, { name:'Scholarship', link:'/admissions'}, { name:'Credit Transfer', link:'/admissions'}, { name:'FAQs', link:'/admissions'}]} />
           <Dropdown title="News And Events" link="/news-events" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[]} />
           <Dropdown title="Announcements" link="/announcements" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[]} />
         </div>
@@ -128,6 +128,7 @@ const TertioryNav = () => {
               <MobileMenuItem title="Academics" link='/academics' items={['Schools', 'Departments', 'Centers And Institution', 'Fees And Payments', 'Policies And Procedures', 'Institutional Quality Assurance Cell (IQAC)']} />
               <MobileMenuItem title="Admissions" link='/admissions' items={['Why Admission at CUB?', 'Undergraduate Admission', 'Postgraduate Admission', 'Scholarship', 'Credit Transfer', 'FAQs']} />
               <MobileMenuItem title="News And Events" link='/news-events' items={[]} />
+              <MobileMenuItem title="Announcements" link='/announcements' items={[]} />
             </div>
           </div>
         )}
@@ -141,17 +142,23 @@ const TertioryNav = () => {
 const MobileMenuItem = ({ title, items, link}) => {
   return (
     <div className="group relative">
-        <a href={link}>
-          <button className={`flex flex-grow-1 text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5 z-50`}>
-              {title} ▼
+        
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <a href={link}><button className={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5 z-50`}>
+            {title}
+          </button></a>
+          <button className={`text-xl text-white hover:bg-blue-200 py-2 rounded-md px-5 mx-5 z-50`}>
+            ▼
           </button>
-        </a>
+        </div>
+        
 
       <div className="absolute hidden bg-white text-black group-hover:block z-50">
         {items.map((item, index) => (
-          <a key={index} href={link} className="block px-4 py-2 hover:bg-blue-200 z-50">
-            {item}
+          <a key={index} href={item.link} className="block px-4 py-2 hover:bg-blue-200 z-50">
+            {item.name}
           </a>
+          // href={link}
         ))}
       </div>
     </div>
@@ -170,8 +177,8 @@ const Dropdown = ({ title, items, classes_title, link }) => {
         </a>
       <div className="absolute hidden bg-white text-black group-hover:block z-50">
         {items.map((item, index) => (
-          <a key={index} href={link} className="block px-4 py-2 hover:bg-blue-200">
-            {item}
+          <a key={index} href={item.link} className="block px-4 py-2 hover:bg-blue-200">
+            {item.name}
           </a>
         ))}
       </div>
