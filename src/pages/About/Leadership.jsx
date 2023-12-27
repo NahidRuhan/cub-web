@@ -6,8 +6,10 @@ import TertioryNav from "../../shared/TertioryNav";
 const Leadership = () => {
   return (
     <div>
-        <LogoNav></LogoNav>
+
         <SecondaryNav></SecondaryNav>
+
+        <LogoNav></LogoNav>
         <TertioryNav></TertioryNav>
       <div className="bg-logoRed h-96"></div>
       <div className=" bg-slate-300 hidden md:flex">

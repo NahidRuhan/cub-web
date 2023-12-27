@@ -5,9 +5,9 @@ import TertioryNav from "../../shared/TertioryNav";
 const Center = () => {
     return (
         <div>
+            <SecondaryNav></SecondaryNav>
 
             <LogoNav></LogoNav>
-            <SecondaryNav></SecondaryNav>
             <TertioryNav></TertioryNav>
 
             <div className="w-full h-96 bg-yellow-700 flex justify-center items-center text-center text-white">

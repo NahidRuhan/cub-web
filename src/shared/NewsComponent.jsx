@@ -15,9 +15,9 @@ const NewsComponent = ({ news }) => {
 
   return (
     <div>
-      <div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[650px]">
+      <div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[750px]">
         <div className="flex flex-col gap-2">
-          <img className="w-full h-72" src={img} alt="" />
+          <img className="w-full h-72" src={img} alt="picture" />
           <h2 className="font-bold text-2xl font-roboto text-logoRed">{title}</h2>
           <p className="font-normal text-lg font-nunito">
             {showFullDescription ? description : truncatedDescription}

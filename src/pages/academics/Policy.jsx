@@ -5,8 +5,10 @@ import TertioryNav from "../../shared/TertioryNav";
 const Policy = () => {
     return (
         <div>
-            <LogoNav></LogoNav>
+
             <SecondaryNav></SecondaryNav>
+
+            <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
             <iframe src={book} width="100%" height="600px" frameBorder="0"></iframe>
 

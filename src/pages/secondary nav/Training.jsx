@@ -4,8 +4,8 @@ import TertioryNav from "../../shared/TertioryNav";
 const Training = () => {
     return (
         <div>
-                        <LogoNav></LogoNav>
             <SecondaryNav></SecondaryNav>
+            <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
         </div>
     );

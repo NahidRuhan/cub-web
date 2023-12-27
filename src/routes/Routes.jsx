@@ -27,11 +27,12 @@ import CreditTransfer from "../pages/admissions/CreditTransfer";
 import Faq from "../pages/admissions/Faq";
 import Calender from "../pages/secondary nav/Calender";
 import Training from "../pages/secondary nav/Training";
-import Events from "../pages/home/news/Events";
 import Library from "../pages/secondary nav/Library";
 import Career from "../pages/secondary nav/Career";
 import Alumni from "../pages/secondary nav/Alumni";
 import Contact from "../pages/secondary nav/Contact";
+import TuitionAndFees from "../pages/admissions/TuitionAndFees";
+import NavEvents from "../pages/secondary nav/NavEvents";
 
 
 const router = createBrowserRouter([
@@ -125,6 +126,10 @@ const router = createBrowserRouter([
                 element: <CreditTransfer></CreditTransfer>
             },
             {
+                path: '/admissions/tuition-fees',
+                element: <TuitionAndFees></TuitionAndFees>
+            },
+            {
                 path: '/admissions/faq',
                 element: <Faq></Faq>
             },
@@ -147,8 +152,8 @@ const router = createBrowserRouter([
                 element: <Training></Training>
             },
             {
-                path: '/events',
-                element: <Events></Events>
+                path: '/conference',
+                element: <NavEvents></NavEvents>
             },
             {
                 path: '/library',

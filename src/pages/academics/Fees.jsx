@@ -9,9 +9,9 @@ const Fees = () => {
 
     return (
         <div>
+            <SecondaryNav></SecondaryNav>
 
             <LogoNav></LogoNav>
-            <SecondaryNav></SecondaryNav>
             <TertioryNav></TertioryNav>
 
             <div className="bg-logoRed text-white">

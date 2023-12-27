@@ -5,8 +5,10 @@ import TertioryNav from "../../shared/TertioryNav";
 const Awards = () => {
   return (
     <div>
-      <LogoNav></LogoNav>
+
       <SecondaryNav></SecondaryNav>
+
+      <LogoNav></LogoNav>
       <TertioryNav></TertioryNav>
 
       <div className="w-full h-96 bg-yellow-700 flex justify-center items-center text-center text-white">
