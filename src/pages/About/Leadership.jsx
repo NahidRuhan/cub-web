@@ -11,8 +11,11 @@ const Leadership = () => {
 
         <LogoNav></LogoNav>
         <TertioryNav></TertioryNav>
-      <div className="bg-logoRed h-96"></div>
-      <div className=" bg-slate-300 hidden md:flex">
+        <img
+          className="w-full h-96"
+          src="https://i.ibb.co/bBTKqtp/banner2.jpg"
+          alt=""
+        />      <div className=" bg-slate-300 hidden md:flex">
         <div className="flex gap-3 mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl">
           <Link to="/">
             <p className="hover:underline">Home</p>

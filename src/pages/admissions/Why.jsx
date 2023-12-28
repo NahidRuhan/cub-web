@@ -1,7 +1,6 @@
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import TertioryNav from "../../shared/TertioryNav";
-import banner from "../../assets/why admission.png"
 import { Link } from "react-router-dom";
 const Why = () => {
     return (
@@ -12,7 +11,7 @@ const Why = () => {
             <div>
         <img
           className="w-full h-96"
-          src={banner}
+          src="https://i.ibb.co/bBTKqtp/banner2.jpg"
           alt=""
         />
       </div> 

@@ -3,7 +3,6 @@ import LogoNav from "../../../shared/LogoNav";
 import SecondaryNav from "../../../shared/SecondaryNav";
 import { useState } from 'react';
 import TertioryNav from "../../../shared/TertioryNav";
-import banner from '../../../assets/academics.png'
 import general from '../../../assets/general.jpg'
 
 
@@ -26,7 +25,7 @@ const Departments = () => {
             <div>
         <img
           className="w-full h-96"
-          src={banner}
+          src="https://i.ibb.co/bBTKqtp/banner2.jpg"
           alt=""
         />
       </div> 

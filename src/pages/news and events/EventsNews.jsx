@@ -18,7 +18,7 @@ const EventsNews = () => {
             <div>
         <img
           className="w-full h-96"
-          src="https://i.ibb.co/g9cfVbK/polygonal19.jpg"
+          src="https://i.ibb.co/bBTKqtp/banner2.jpg"
           alt=""
         />
       </div> 
