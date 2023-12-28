@@ -3,6 +3,8 @@ import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import permanentCampus from '../../assets/permanent campus.jpeg'
 import TertioryNav from "../../shared/TertioryNav";
+import vision from '../../assets/vision.jpg'
+import banner from "../../assets/about us banner.png"
 
 const AboutUs = () => {
     return (
@@ -12,8 +14,8 @@ const AboutUs = () => {
             <TertioryNav></TertioryNav>
             <div>
         <img
-          className="w-full h-96"
-          src="https://i.ibb.co/bBTKqtp/banner2.jpg"
+          className="w-full h-52 lg:h-96"
+          src={banner}
           alt=""
         />
       </div> 
@@ -24,19 +26,19 @@ const AboutUs = () => {
             <p>About</p>
         </div>
         </div>
-        <div className="flex flex-col lg:flex-row mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 gap-3">
+        <div className="flex flex-col lg:flex-row mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 gap-3 text-justify">
             <div className="basis-3/5 font-nunito">
                 <p className="font-normal text-base"><span className="font-bold text-base text-logoRed">Canadian University of Bangladesh (CUB)</span> has started its journey since June 2016 with the visions and missions of providing excellent education and generating emerging knowledge applicable for the Era of ICT. The assortment challenges of new generation equipped with the materialized global knowledge commanding the attention of the students, and yet be delivered in a method and at a pace that will permit the student to achieve success. In addition to preparing the students to apply their knowledge and skills, the university develops the curriculum with right attitude to attain a specific ability for the profession to deliver. Delivery of the curriculum will engage the students in an active learning process, in which their critical thinking and problem-solving skills will continue to be refined. The educational and career development methodologies are designed to equip the 21st century students with the skills that is required to become accomplished in their respected fields. This will transform the students into highly competent professionals having the potential of becoming future leader in the respective precinct. The university emphasizes on the integration of information, communication and technology-based education while trains its students about human ethics and regulatory laws in their profession as well as the overall society.</p>
             </div>
             <div className="basis-2/5">
 
-            <div tabIndex={0} className="collapse border border-base-300 bg-base-200 rounded-none hover:bg-red-500">
+            <div tabIndex={0} className="collapse border border-base-300 bg-base-200 rounded-none hover:bg-logoRed hover:text-white">
   <div className="collapse-title text-xl font-medium">
     Vision and Mission
   </div>
 </div>
 
-            <div tabIndex={0} className="collapse collapse-plus border border-base-300 bg-base-200 rounded-none  hover:bg-red-500">
+            <div tabIndex={0} className="collapse collapse-plus border border-base-300 bg-base-200 rounded-none  hover:bg-logoRed hover:text-white">
   <div className="collapse-title text-xl font-medium">
     Leadership and Administration
   </div>
@@ -49,7 +51,7 @@ const AboutUs = () => {
   </div>
 </div>
 
-<div tabIndex={0} className="collapse border border-base-300 bg-base-200 rounded-none hover:bg-red-500">
+<div tabIndex={0} className="collapse border border-base-300 bg-base-200 rounded-none hover:bg-logoRed hover:text-white">
   <div className="collapse-title text-xl font-medium">
     Permanent Campus
   </div>
@@ -58,7 +60,7 @@ const AboutUs = () => {
             </div>
         </div>
 
-        <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 text-logoRed font-nunito">
+        <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 text-logoRed font-nunito text-justify">
 
 <div className='lg:w-max'>
 <h1 className="font-normal text-4xl mb-5 font-roboto">Mission</h1>
@@ -77,14 +79,14 @@ const AboutUs = () => {
 </div>
 
     <div>
-        <img src={permanentCampus} alt="" />
+        <img src={vision} alt="" />
     </div>
     
 </div>
 
 </div>
 
-        <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 text-logoRed font-nunito">
+        <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 text-logoRed font-nunito text-justify">
 
         <div className='lg:w-max'>
 <h1 className="font-normal text-4xl mb-5 font-roboto">Vision</h1>

@@ -3,6 +3,7 @@ import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import TertioryNav from "../../shared/TertioryNav";
 import AnnouncementComponent from "./AnnouncementComponent";
+import banner from "../../assets/announcement.jpg"
 
 const Announcements = () => {
     const announcement = useLoaderData();
@@ -16,7 +17,7 @@ const Announcements = () => {
             <div>
         <img
           className="w-full h-96"
-          src="https://i.ibb.co/bBTKqtp/banner2.jpg"
+          src={banner}
           alt=""
         />
       </div> 
