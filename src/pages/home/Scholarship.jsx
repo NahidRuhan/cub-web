@@ -1,5 +1,5 @@
 const Scholarship = () => {
-    const backgroundImageUrl = 'https://i.ibb.co/82kCwxz/image.jpg';
+    const backgroundImageUrl = 'https://i.ibb.co/xmkNx02/Scholarship.jpg';
 
     return (
         <div

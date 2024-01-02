@@ -1,13 +1,13 @@
 import { FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaTwitterSquare, FaYoutubeSquare } from "react-icons/fa";
-import logo from "../assets/logo.svg"
 
 const Footer = () => {
     return (
         <div className="bg-logoRed text-white p-5">
         
         <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl">
-            <div className="flex justify-center bg-white w-1/6 h-auto mx-auto">
-                <img className="" src={logo} alt="" />
+            <div className="flex justify-center  w-1/6 h-auto mx-auto">
+                <img className="" src="https://canadianuv.netlify.app/Images/CUBWhite.png" alt="" />
+
             </div>
 
 <footer className="footer p-10">

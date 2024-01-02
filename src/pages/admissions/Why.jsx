@@ -2,6 +2,8 @@ import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import TertioryNav from "../../shared/TertioryNav";
 import { Link } from "react-router-dom";
+import banner from "../../assets/announcement.jpg"
+
 const Why = () => {
     return (
         <div>
@@ -9,9 +11,9 @@ const Why = () => {
             <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
             <div>
-        <img
+            <img
           className="w-full h-96"
-          src="https://i.ibb.co/bBTKqtp/banner2.jpg"
+          src={banner}
           alt=""
         />
       </div> 

@@ -20,11 +20,7 @@ import Collaboration from "../pages/about/Collaboration";
 import Awards from "../pages/about/Awards";
 import PermanentCampus from "../pages/about/PermanentCampus";
 import Why from "../pages/admissions/Why";
-import Undergrad from "../pages/admissions/Undergrad";
-import Postgrad from "../pages/admissions/Postgrad";
 import AdmissionScholarship from "../pages/admissions/AdmissionScholarship";
-import CreditTransfer from "../pages/admissions/CreditTransfer";
-import Faq from "../pages/admissions/Faq";
 import Calender from "../pages/secondary nav/Calender";
 import Training from "../pages/secondary nav/Training";
 import Library from "../pages/secondary nav/Library";
@@ -110,28 +106,13 @@ const router = createBrowserRouter([
                 element: <Why></Why>
             },
             {
-                path: '/admissions/undergrad-admission',
-                element: <Undergrad></Undergrad>
-            },
-            {
-                path: '/admissions/postgrad-admission',
-                element: <Postgrad></Postgrad>
-            },
-            {
                 path: '/admissions/scholarship',
                 element: <AdmissionScholarship></AdmissionScholarship>
             },
-            {
-                path: '/admissions/credit-transfer',
-                element: <CreditTransfer></CreditTransfer>
-            },
+
             {
                 path: '/admissions/tuition-fees',
                 element: <TuitionAndFees></TuitionAndFees>
-            },
-            {
-                path: '/admissions/faq',
-                element: <Faq></Faq>
             },
             {
                 path: '/news-events',

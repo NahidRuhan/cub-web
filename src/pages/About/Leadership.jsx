@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import TertioryNav from "../../shared/TertioryNav";
+import banner from "../../assets/Leadership.jpg"
 
 const Leadership = () => {
   return (
@@ -13,9 +14,10 @@ const Leadership = () => {
         <TertioryNav></TertioryNav>
         <img
           className="w-full h-96"
-          src="https://i.ibb.co/bBTKqtp/banner2.jpg"
+          src={banner}
           alt=""
-        />      <div className=" bg-slate-300 hidden md:flex">
+        />  
+            <div className=" bg-slate-300 hidden md:flex">
         <div className="flex gap-3 mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl">
           <Link to="/">
             <p className="hover:underline">Home</p>

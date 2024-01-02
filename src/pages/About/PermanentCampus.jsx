@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import banner from '../../assets/campus banner.png'
 import LogoNav from '../../shared/LogoNav';
 import SecondaryNav from '../../shared/SecondaryNav';
 import TertioryNav from '../../shared/TertioryNav';
@@ -10,13 +9,10 @@ const PermanentCampus = () => {
 <SecondaryNav></SecondaryNav>
             <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
-            <div>
-        <img
-          className="w-full h-96"
-          src={banner}
-          alt=""
-        />
-      </div> 
+
+            <div className="w-full h-52 bg-slate-700 flex justify-center items-center text-center text-white">
+  <h1 className="text-3xl">Permanent Campus</h1>
+</div>
       <div className=" bg-slate-300">
         <div className="flex gap-3 mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl">
             <Link to='/'><p className="hover:underline">Home</p></Link>

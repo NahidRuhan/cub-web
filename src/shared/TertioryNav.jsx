@@ -87,11 +87,11 @@ const TertioryNav = () => {
        </button>
        
        <div className="hidden flex-grow lg:flex lg:justify-around lg:w-full space-x-5">
-         <Dropdown title="About Us" link="/about-us/vision-mission" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[{ name:'Vision Mission', link:'/about-us/vision-mission'}, { name:'Leadership And Administration', link:'/about-us/leadership-administration'}, { name:'Message from Chairman', link:'/about-us/chairman-message'}, { name:'Message from Vice Chancellor', link:'/about-us/vc-message'}, { name:'Message from Pro Vice Chancellor', link:'/about-us/provc-message'}, { name:'Collaboration', link:'/about-us/collaboration'}, { name:'Awards And Achievements', link:'/about-us/awards-achievements'}, { name:'Permanent Campus', link:'/about-us/permanent-campus'}]} />
-         <Dropdown title="Academics" link="/academics/schools" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[{ name:'Schools', link:'/academics/schools'}, { name:'Departments', link:'/academics/departments'}, { name:'Centers And Institution', link:'/academics/center-institutions'}, { name:'Fees And Payment', link:'/academics/fees-payment'}, { name:'Policies And Procedures', link:'/academics/policy-procedure'}]} />
-         <Dropdown title="Admissions" link="/admissions" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[{ name:'Why Admission at CUB?', link:'/admissions/why'}, { name:'Undergraduate Admission', link:'/admissions/undergrad-admission'}, { name:'Postgraduate Admission', link:'/admissions/postgrad-admission'}, { name:'Scholarship', link:'/admissions/scholarship'},{ name:'Tuition and Fees', link:"/admissions/tuition-fees"}, { name:'FAQs', link:'/admissions/faq'}]} />
-         <Dropdown title="News And Events" link="/news-events" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[]} />
-         <Dropdown title="Announcements" link="/announcements" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[]} />
+         <Dropdown title="About Us" link="/about-us/vision-mission" classes_title={`text-lg text-white hover:bg-white hover:text-logoRed hover:underline py-2 rounded-md px-1 mx-2`} items={[{ name:'Vision Mission', link:'/about-us/vision-mission'}, { name:'Leadership And Administration', link:'/about-us/leadership-administration'}, { name:'Message from Chairman', link:'/about-us/chairman-message'}, { name:'Message from Vice Chancellor', link:'/about-us/vc-message'}, { name:'Message from Pro Vice Chancellor', link:'/about-us/provc-message'}, { name:'Collaboration', link:'/about-us/collaboration'}, { name:'Awards And Achievements', link:'/about-us/awards-achievements'}, { name:'Permanent Campus', link:'/about-us/permanent-campus'}]} />
+         <Dropdown title="Academics" link="/academics/schools" classes_title={`text-lg text-white hover:bg-white hover:text-logoRed hover:underline py-2 rounded-md px-1 mx-2`} items={[{ name:'Schools', link:'/academics/schools'}, { name:'Departments', link:'/academics/departments'}, { name:'Centers And Institution', link:'/academics/center-institutions'}, { name:'Policies And Procedures', link:'/academics/policy-procedure'}]} />
+         <Dropdown title="Admissions" link="/admissions" classes_title={`text-lg text-white hover:bg-white hover:text-logoRed hover:underline py-2 rounded-md px-1 mx-2`} items={[{ name:'Why Admission at CUB?', link:'/admissions/why'}, { name:'Scholarship', link:'/admissions/scholarship'},{ name:'Tuition and Fees', link:"/admissions/tuition-fees"}]} />
+         <Dropdown title="News And Events" link="/news-events" classes_title={`text-lg text-white hover:bg-white hover:text-logoRed hover:underline py-2 rounded-md px-1 mx-2`} items={[]} />
+         <Dropdown title="Announcements" link="/announcements" classes_title={`text-lg text-white hover:bg-white hover:text-logoRed hover:underline py-2 rounded-md px-1 mx-2`} items={[]} />
        </div>
 
         {isScrolled && (
@@ -119,7 +119,7 @@ const TertioryNav = () => {
             <ul className="space-y-2 font-medium">
                <MobileMenuItem has_children={true} title="About Us" link="/about-us/vision-mission" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[{ name:'Vision Mission', link:'/about-us/vision-mission'}, { name:'Leadership And Administration', link:'/about-us/leadership-administration'}, { name:'Message from Chairman', link:'/about-us/chairman-message'}, { name:'Message from Vice Chancellor', link:'/about-us/vc-message'}, { name:'Message from Pro Vice Chancellor', link:'/about-us/provc-message'}, { name:'Collaboration', link:'/about-us/collaboration'}, { name:'Awards And Achievements', link:'/about-us/awards-achievements'}, { name:'Permanent Campus', link:'/about-us/permanent-campus'}]} />
                <MobileMenuItem has_children={true} title="Academics" link="/academics/schools" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[{ name:'Schools', link:'/academics/schools'}, { name:'Departments', link:'/academics/departments'}, { name:'Centers And Institution', link:'/academics/center-institutions'}, { name:'Fees And Payment', link:'/academics/fees-payment'}, { name:'Policies And Procedures', link:'/academics/policy-procedure'}]} />
-               <MobileMenuItem has_children={true} title="Admissions" link="/admissions" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[{ name:'Why Admission at CUB?', link:'/admissions/why'}, { name:'Undergraduate Admission', link:'/admissions/undergrad-admission'}, { name:'Postgraduate Admission', link:'/admissions/postgrad-admission'}, { name:'Scholarship', link:'/admissions/scholarship'},{ name:'Tuition and Fees', link:"/admissions/tuition-fees"}, { name:'FAQs', link:'/admissions/faq'}]} />
+               <MobileMenuItem has_children={true} title="Admissions" link="/admissions" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[{ name:'Why Admission at CUB?', link:'/admissions/why'},  { name:'Scholarship', link:'/admissions/scholarship'},{ name:'Tuition and Fees', link:"/admissions/tuition-fees"}]} />
                <MobileMenuItem has_children={false} title="News And Events" link="/news-events" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[]} />
                <MobileMenuItem has_children={false} title="Announcements" link="/announcements" classes_title={`text-lg text-white hover:bg-blue-200 py-2 rounded-md px-1 mx-2`} items={[]} />
             </ul>
@@ -246,13 +246,11 @@ const MobileMenuItem = ({ title, items, link, has_children}) => {
           </button>)}
         </div>
         
-
-      <div className="absolute hidden bg-white text-black group-hover:block z-50">
+        <div className="absolute hidden group-hover:bg-[#F5F5F5] group-hover:rounded text-black group-hover:block z-50">
         {items.map((item, index) => (
-          <a key={index} href={item.link} className="block px-4 py-2 hover:bg-blue-200 z-50">
+          <a key={index} href={item.link} className="block px-4 py-2  hover:text-logoRed">
             {item.name}
           </a>
-          // href={link}
         ))}
       </div>
     </div>
@@ -271,9 +269,9 @@ const Dropdown = ({ title, items, classes_title, link }) => {
               {title}
           </button>
         </a>
-      <div className="absolute hidden bg-white text-black group-hover:block z-50">
+        <div className="absolute hidden group-hover:bg-[#F5F5F5] group-hover:rounded text-black group-hover:block z-50">
         {items.map((item, index) => (
-          <a key={index} href={item.link} className="block px-4 py-2 hover:bg-blue-200">
+          <a key={index} href={item.link} className="block px-4 py-2  hover:text-logoRed">
             {item.name}
           </a>
         ))}

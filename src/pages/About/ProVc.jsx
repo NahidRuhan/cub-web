@@ -10,6 +10,10 @@ const ProVc = () => {
             <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
 
+            <div className="w-full h-52 bg-slate-700 flex justify-center items-center text-center text-white">
+  <h1 className="text-3xl">Message From Pro Vice-Chancellor</h1>
+</div>
+
             <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 flex flex-col gap-5">
                 <h1 className="text-lg font-bold">Dear Students and respected Guardians,</h1>
                 <p>I am delighted to extend a warm welcome to you on behalf of the Canadian University of Bangladesh (CUB) where educational excellence ensures higher quality, meets innovation, and opportunities for a bright future at home and abroad.

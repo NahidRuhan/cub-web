@@ -3,7 +3,7 @@ import LogoNav from '../../shared/LogoNav';
 import SecondaryNav from '../../shared/SecondaryNav';
 import TertioryNav from '../../shared/TertioryNav';
 import { useState } from 'react';
-import demo from "../../assets/demo.jpg"
+import banner from "../../assets/school.jpg"
 
 const Schools = () => {
 
@@ -26,10 +26,11 @@ const Schools = () => {
 <SecondaryNav></SecondaryNav>
             <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
+
             <div>
         <img
-          className="w-full h-96 object-cover"
-          src={demo}
+          className="w-full h-96"
+          src={banner}
           alt="demo picture just for show"
         />
       </div> 

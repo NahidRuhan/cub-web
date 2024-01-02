@@ -31,13 +31,13 @@ const Admissions = () => {
 
         <div className="bg-slate-500">  
 
-<div className="flex flex-col justify-center items-center h-screen mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 gap-10">
+<div className="flex flex-col justify-center items-center h-screen mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 gap-2 lg:gap-10">
 
-    <div className="flex flex-col gap-10 text-center">
+    <div className="flex flex-col gap-5 lg:gap-10 text-center">
         <h1 className="font-roboto font-normal text-3xl lg:text-5xl text-white">Spring 2024 Intake</h1>
-        <h2 className="font-normal text-3xl text-logoRed">Admission test date</h2>
-        <p className="text-white font-normal font-nunito text-2xl">Undergraduate program: 10 November 2023 at 3:00 pm</p>
-        <p className="text-white font-normal font-nunito text-2xl">Postgraduate program: 17 November 2023</p>
+        <h2 className="font-normal text-2xl lg:text-3xl text-logoRed">Admission test date</h2>
+        <p className="text-white font-normal font-nunito text-lg lg:text-2xl">Undergraduate program: 10 November 2023 at 3:00 pm</p>
+        <p className="text-white font-normal font-nunito text-lg lg:text-2xl">Postgraduate program: 17 November 2023</p>
     </div>
     <div className="mt-10">
         <button className="btn btn-error text-white hover:bg-blue-500">Apply Now</button>
@@ -47,14 +47,14 @@ const Admissions = () => {
 </div>
 
 <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 flex flex-col gap-3">
-    <h1 className="font-roboto font-normal text-4xl text-red-500">Join the “Highest ranked among private universities in Bangladesh - QS Asian University rankings 2018.” </h1>
+    <h1 className="font-roboto font-normal text-2xl lg:text-4xl text-red-500">Join the “Highest ranked among private universities in Bangladesh - QS Asian University rankings 2018.” </h1>
     <div style={{
     boxShadow: '-8px 0px 12px -4px rgba(0, 0, 0, 0.1)', // Adjust the values to suit your design
-  }} className="flex flex-col gap-2 p-3 shadow-md-left">
-  <p className="font-nunito text-base text-blue-500">
+  }} className="flex flex-col gap-2 p-3 shadow-md-left text-sm lg:text-base">
+  <p className="font-nunito  text-blue-500">
     Canadian University Of Bangladesh (BracU) always pays close attention to convenient approach in terms of Admission Procedures. The entire admission process will be online and applicants can apply from the convenience of their home. The entire process of admission goes through an intensely selective method where applicants are asked to follow each phase precisely within the given framework of instructions. To get admitted into BracU, applicants must qualify in the admission test (written and an interview) after submitting their online application form.
   </p>
-  <p className="font-nunito text-base text-blue-500">
+  <p className="font-nunito text-blue-500">
     As the admission test is a highly competitive one, applicants are required to perform satisfactorily in the examination in order to secure their seats.
   </p>        
 </div>
@@ -64,13 +64,13 @@ const Admissions = () => {
 <div className="bg-red-500 py-20">
     <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10">
 
-        <h1 className="font-normal text-4xl text-white pb-10">Undergraduate Admissions</h1>
+        <h1 className="font-normal text-3xl lg:text-4xl text-white pb-10">Undergraduate Admissions</h1>
         <div className="flex flex-col md:flex-row items-center gap-5">
             <div className="basis-1/2">
                 <img src="https://canadianuv.netlify.app/sites/default/files/styles/16_9_medium_530x298/public/banner-images/143E8C82-95A6-4AA0-B2F8-CC98D1C173F3.jpeg" alt="" />
             </div>
             <div className="flex flex-col basis-1/2 gap-5">
-                <p className="font-nunito font-normal text-lg text-white">Canadian University Of Bangladesh excels at educating undergraduate students! Get yourself admitted to the Nation’s highest ranking private university as ranked in the QS Asian University rankings 2018 and build yourself a successful career!!</p>
+                <p className="font-nunito font-normal text-base lg:text-lg text-white">Canadian University Of Bangladesh excels at educating undergraduate students! Get yourself admitted to the Nation’s highest ranking private university as ranked in the QS Asian University rankings 2018 and build yourself a successful career!!</p>
                 <div><button className="btn btn-primary bg-white text-black">Apply Now</button></div>
             </div>
         </div>

@@ -11,7 +11,7 @@ const Vc = () => {
             <TertioryNav></TertioryNav>
 
 
-<div className="w-full h-96 bg-slate-700 flex justify-center items-center text-center text-white">
+<div className="w-full h-52 bg-slate-700 flex justify-center items-center text-center text-white">
   <h1 className="text-3xl">Message From Vice Chancellor</h1>
 </div>
 
