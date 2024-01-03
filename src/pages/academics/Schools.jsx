@@ -51,7 +51,6 @@ const Schools = () => {
                         <h1 className="font-roboto font-normal text-4xl text-[#F4253F]">School of Science & Engineering</h1>
                 <hr className='w-auto h-1  bg-[#F4253F]' />
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores obcaecati nostrum, adipisci est molestias assumenda facilis voluptatem fuga ut quas id quod consequuntur, atque exercitationem dolore ratione, autem fugiat.</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">
 
@@ -68,7 +67,7 @@ const Schools = () => {
     style={{ filter: isHoveredCSE ? 'brightness(70%)' : 'brightness(100%)' }}
     />
     <h2 className="font-bold text-2xl font-roboto text-logoRed">Computer Science And Engineering (CSE)</h2>
-    <p className="font-normal text-lg font-nunito">The Department of Computer Science and Engineering strives to inspire excellence in the creation, application and dissemination of knowledge in computer science and engineering through comprehensive educational programs; research in collaboration with industry, NGOs, and government; diffusion through scholarly publications, and service to the national and international community.</p>
+    <p className="font-normal text-lg font-nunito">The Canadian University of Bangladesh&apos;s Computer Science and Engineering Department prioritizes a dynamic curriculum, blending theory and practical applications to keep students abreast of evolving technologies. Our experienced faculty serve as mentors, offering real-world insights. State-of-the-art facilities and labs enable hands-on learning, emphasizing the application of theoretical knowledge. Collaboration is fostered through group projects and competitions, enhancing teamwork and problem-solving skills. We promote interdisciplinary studies, encouraging exploration beyond computer science. Committed to holistic development, our approach extends beyond traditional methods, producing graduates poised to lead in the global tech landscape. Strong industry connections provide internships, ensuring students gain valuable practical experience.</p>
     </div>
     <div
     className={`absolute bottom-0 left-0 w-full h-3 bg-black transition-all duration-300 opacity-0 ${
@@ -91,7 +90,7 @@ const Schools = () => {
     style={{ filter: isHoveredEEE ? 'brightness(70%)' : 'brightness(100%)' }}
     />
     <h2 className="font-bold text-2xl font-roboto text-logoRed">Electrical And Electronics Engineering (EEE)</h2>
-    <p className="font-normal text-lg font-nunito">The program in Electrical and Electronic Engineering at the Canadian University of Bangladesh is designed to provide students with a thorough understanding of general education and the fundamental principles of electrical and electronic engineering, ultimately leading to the attainment of a Bachelor of Science in Electrical and Electronic Engineering. The primary objective of the program is to enhance the ongoing professional growth of individuals who have completed their education, specifically within their respective fields.</p>
+    <p className="font-normal text-lg font-nunito">The Electrical & Electronic Engineering (EEE) Department at the Canadian University of Bangladesh, within the School of Science & Engineering, has earned recognition in academia and industry for its tutorial-based education, well-equipped labs, and experienced faculty. Emphasizing cutting-edge technology, next-gen research, and robust networking, the program specializes students in key areas: Power System, Sustainable Development & Renewable Energy; Computer and Software Engineering, Artificial Intelligence, and Robotics; Advanced Communication, Satellite, Wireless & Smart City, IoT, and Big Data; and Advanced Electronic Device, Materials, and Biomedical streams. The department&apos;s commitment extends beyond quality education, focusing on innovation, research, and real-world applications.</p>
     </div>
     <div
     className={`absolute bottom-0 left-0 w-full h-3 bg-black transition-all duration-300 opacity-0 ${
@@ -113,7 +112,7 @@ const Schools = () => {
     style={{ filter: isHoveredSMS ? 'brightness(70%)' : 'brightness(100%)' }}
     />
     <h2 className="font-bold text-2xl font-roboto text-logoRed">Shipping And Maritime Science (SMS)</h2>
-    <p className="font-normal text-lg font-nunito">The Department of Shipping and Maritime Science is committed to fostering excellence in the field of maritime studies by offering comprehensive educational programs and conducting pioneering research. With a focus on the multifaceted aspects of shipping, logistics, and maritime affairs, our department collaborates closely with industry leaders, non-governmental organizations (NGOs), and governmental bodies to advance knowledge and innovation.</p>
+    <p className="font-normal text-lg font-nunito">The Canadian University of Bangladesh&apos;s Shipping and Maritime Department is committed to providing top-tier education in an interactive environment, preparing students for diverse career paths in industry, academia, and government. We focus on strengthening core competencies through industry-oriented and tutorial-based education, supplementing academic knowledge with practical skills gained from an enriched Industrial Training program. Our efforts extend to organizing workshops, seminars, and contests, fostering problem-solving, leadership, and interpersonal skills. As part of our global aspirations, we aim to be a leading force in applied research and teaching, striving for universal recognition in quality education and applied research. Our ultimate objective is to produce graduates ready for prominent global companies or advanced studies at renowned universities.</p>
     </div>
     <div
     className={`absolute bottom-0 left-0 w-full h-3 bg-black transition-all duration-300 opacity-0 ${
@@ -133,8 +132,6 @@ const Schools = () => {
                         <h1 className="font-roboto font-normal text-4xl text-[#F4253F]">School of Business</h1>
                 <hr className='w-auto h-1  bg-[#F4253F]' />
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores obcaecati nostrum, adipisci est molestias assumenda facilis voluptatem fuga ut quas id quod consequuntur, atque exercitationem dolore ratione, autem fugiat.</p>
-
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">
 
     <div onClick={()=>window.location.href = 'https://business.cub.edu.bd/'}
@@ -211,8 +208,6 @@ const Schools = () => {
                         <h1 className="font-roboto font-normal text-4xl text-[#F4253F]">School of Liberal Arts And Social Science</h1>
                 <hr className='w-auto h-1  bg-[#F4253F]' />
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores obcaecati nostrum, adipisci est molestias assumenda facilis voluptatem fuga ut quas id quod consequuntur, atque exercitationem dolore ratione, autem fugiat.</p>
-
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">
 
     <div onClick={()=>window.location.href = 'https://english.cub.edu.bd/'}
@@ -228,7 +223,7 @@ const Schools = () => {
     style={{ filter: isHoveredEnglish ? 'brightness(70%)' : 'brightness(100%)' }}
     />
     <h2 className="font-bold text-2xl font-roboto text-logoRed">English</h2>
-    <p className="font-normal text-lg font-nunito">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsa laborum vel. Ducimus alias autem laudantium assumenda odit deleniti dolorum repellendus et nobis dolores itaque illum velit quidem recusandae ratione, aspernatur consectetur deserunt voluptatibus voluptatem eveniet corrupti molestias maiores quos? Obcaecati, enim! Quod, hic! Omnis sapiente ullam commodi blanditiis dolorum?</p>
+    <p className="font-normal text-lg font-nunito">The Canadian University of Bangladesh&apos;s Department of English is a dynamic hub for studying Literature, Applied Linguistics, ELT, Cultural Studies, and Critical Literary theories. Dedicated to producing versatile graduates with strong interpretive and communication skills, our mission is to be a global center for academic excellence and professional expertise. We balance general education needs with academic knowledge, utilizing appropriate pedagogies and environments for student success. Our vision is to be a benchmark for liberal arts and sciences education, equipping students with employability skills and providing an intellectually transformative educational journey.</p>
     </div>
     <div
     className={`absolute bottom-0 left-0 w-full h-3 bg-black transition-all duration-300 opacity-0 ${
@@ -251,7 +246,7 @@ const Schools = () => {
     style={{ filter: isHoveredLaw ? 'brightness(70%)' : 'brightness(100%)' }}
     />
     <h2 className="font-bold text-2xl font-roboto text-logoRed">Law</h2>
-    <p className="font-normal text-lg font-nunito">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsa laborum vel. Ducimus alias autem laudantium assumenda odit deleniti dolorum repellendus et nobis dolores itaque illum velit quidem recusandae ratione, aspernatur consectetur deserunt voluptatibus voluptatem eveniet corrupti molestias maiores quos? Obcaecati, enim! Quod, hic! Omnis sapiente ullam commodi blanditiis dolorum?</p>
+    <p className="font-normal text-lg font-nunito">Situated in Pragati Sharani, Dhaka, the Department of Law at the Canadian University of Bangladesh (CUB) stands out as one of the nation&apos;s premier law schools. Known for its excellence and educational intimacy, the department boasts nationally acclaimed faculty, small classes, and extensive opportunities for clinical training and public service. With a deliberate focus on producing leaders in various fields, CUB&apos;s Department of Law aims to prepare students for the dynamic legal landscape. Guided by the motto &apos;Inspiring Applied Knowledge&apos; the department imparts both theoretical and practical legal knowledge, fostering talent development and engagement in extra-curricular and pro bono activities.</p>
     </div>
     <div
     className={`absolute bottom-0 left-0 w-full h-3 bg-black transition-all duration-300 opacity-0 ${
@@ -273,7 +268,7 @@ const Schools = () => {
     style={{ filter: isHoveredMCJ ? 'brightness(70%)' : 'brightness(100%)' }}
     />
     <h2 className="font-bold text-2xl font-roboto text-logoRed">Media, Communication and Journalism (MCJ)</h2>
-    <p className="font-normal text-lg font-nunito">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsa laborum vel. Ducimus alias autem laudantium assumenda odit deleniti dolorum repellendus et nobis dolores itaque illum velit quidem recusandae ratione, aspernatur consectetur deserunt voluptatibus voluptatem eveniet corrupti molestias maiores quos? Obcaecati, enim! Quod, hic! Omnis sapiente ullam commodi blanditiis dolorum?</p>
+    <p className="font-normal text-lg font-nunito">The Canadian University of Bangladesh&apos;s Department of Media Communication and Journalism is dedicated to excellence in professional development, ethical journalism, innovation, global perspectives, community engagement, and continuous learning. Our commitment to these principles ensures that graduates are well-prepared for success in the dynamic media and journalism industry. Through rigorous training, cutting-edge tools, and real-world experiences, we instill the highest standards of ethical journalism, fostering accuracy, objectivity, and fairness. Embracing innovation and research, we explore emerging trends to develop new ideas and solutions. With a global focus, we prepare students for international engagement, emphasizing the media&apos;s power to bring positive change. Actively engaging with the community, we contribute to societal betterment through projects, partnerships, and initiatives. Promoting a culture of lifelong learning, we encourage adaptability to evolving technologies for competitiveness in the global arena.</p>
     </div>
     <div
     className={`absolute bottom-0 left-0 w-full h-3 bg-black transition-all duration-300 opacity-0 ${

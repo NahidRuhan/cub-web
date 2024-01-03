@@ -27,85 +27,68 @@ const AdmissionScholarship = () => {
             </div>
 
             <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 flex flex-col gap-5">
-                <div>
-                    <p className="font-semibold">1. 49 Postdoctoral Fellowship at University of Luxembourg, Luxembourg</p>
-                    <a className="text-blue-500" href="https://vacancyedu.com/49-postdoctoral-fellowship-at-university-of-luxembourg-luxembourg/">https://vacancyedu.com/49-postdoctoral-fellowship-at-university-of-luxembourg-luxembourg/</a>
-                </div>
-                <p>Application Deadline: 21 March, 2022</p>
-                <div>
-                    <p className="font-semibold">2. Commonwealth Scholarships 2022 for International Students: Apply Online</p>
-                    <a className="text-blue-500" href="https://fully-fundedscholarships.com/commonwealth-scholarships-2022-for-international-students-apply-online/">https://fully-fundedscholarships.com/commonwealth-scholarships-2022-for-international-students-apply-online/</a>
-                </div>
-                <p>Application Deadline: March 10, 2022</p>
-                <div>
-                    <p className="font-semibold">3. Griffith University International Student Excellence Scholarships in Australia, 2022</p>
-                    <a className="text-blue-500" href="https://scholarship-positions.com/griffith-university-international-student-excellence-scholarships-in-australia/2019/02/15/?utm_campaign=subscribers-NaN&utm_medium=subscribers_push_notification&utm_source=subscribers">https://scholarship-positions.com/griffith-university-international-student-excellence-scholarships-in-australia/2019/02/15/?utm_campaign=subscribers-NaN&utm_medium=subscribers_push_notification&utm_source=subscribers</a>
-                </div>
-                <p>Application Deadline: June 03</p>
-                <div>
-                    <p className="font-semibold">4. International Stellar Scholarships at Alliance Manchester Business School, UK</p>
-                    <a className="text-blue-500" href="https://scholarship-positions.com/international-stellar-scholarships-at-alliance-manchester-business-school-uk/2021/01/08/?utm_campaign=subscribers-NaN&utm_medium=subscribers_push_notification&utm_source=subscribers">https://scholarship-positions.com/international-stellar-scholarships-at-alliance-manchester-business-school-uk/2021/01/08/?utm_campaign=subscribers-NaN&utm_medium=subscribers_push_notification&utm_source=subscribers</a>
-                </div>
-                <p>Application Deadline: August 31, 2022</p>
-                <div>
-                    <p className="font-semibold">5. Sussex Bangladesh Scholarship (2022)</p>
-                    <a className="text-blue-500" href="https://www.sussex.ac.uk/study/fees-funding/masters-scholarships/view/1327-Sussex-Bangladesh-Scholarship">https://www.sussex.ac.uk/study/fees-funding/masters-scholarships/view/1327-Sussex-Bangladesh-Scholarship</a>
-                </div>
-                <p>Application Deadline: September 01, 2022</p>
-                <div>
-                    <p className="font-semibold">6. 57 Postdoctoral Fellowship at University of Oxford, England</p>
-                    <a className="text-blue-500" href="https://www.vacancyedu.com/57-postdoctoral-fellowship-at-university-of-oxford-england/">https://www.vacancyedu.com/57-postdoctoral-fellowship-at-university-of-oxford-england/</a>
-                </div>
-                <p>Application Deadline: August 31, 2022</p>
-                <div>
-                    <p className="font-semibold">7. 14 Postdoctoral Fellowship at Stockholm University, Sweden</p>
-                    <a className="text-blue-500" href="https://www.vacancyedu.com/14-postdoctoral-fellowship-at-stockholm-university-sweden/">https://www.vacancyedu.com/14-postdoctoral-fellowship-at-stockholm-university-sweden/</a>
-                </div>
-                <p>Application Deadlines: Different deadlines (Details are in the website)</p>
-                <div>
-                    <p className="font-semibold">8. KAAD Scholarships for Developing Countries Students in Germany 2022/23</p>
-                    <a className="text-blue-500" href="https://aseanop.com/kaad-scholarships-for-developing-countries-students-in-germany-2022-23/">https://aseanop.com/kaad-scholarships-for-developing-countries-students-in-germany-2022-23/</a>
-                </div>
-                <p> Application Deadlines: Details are in the website</p>
-                <div>
-                    <p className="font-semibold">9. The Scholarships in New Zealand are available to Study a Bachelors, Masters, and PhD Degree Programs.</p>
-                    <a className="text-blue-500" href="https://opportunitiescorners.info/new-zealand-scholarships-2022/">https://opportunitiescorners.info/new-zealand-scholarships-2022/</a>
-                </div>
-                <p> Application Deadlines: Details are in the website</p>
-                <div>
-                    <p className="font-semibold">10. The Australian Universities and the Australian Government offers a Large Number of Scholarships to Study Bachelors, Masters and PhD Degree Programs.</p>
-                    <a className="text-blue-500" href="https://opportunitiescorners.info/australian-scholarships-2022/">https://opportunitiescorners.info/australian-scholarships-2022/</a>
-                </div>
-                <p>Application Deadlines: Details are in the website</p>
-                <div>
-                    <p className="font-semibold">11. The Applications are now invited to apply for the Saskatchewan University Scholarshipsin Canada for the Academic Year 2022.</p>
-                    <a className="text-blue-500" href="https://opportunitiescorners.info/saskatchewan-university-scholarships/">https://opportunitiescorners.info/saskatchewan-university-scholarships/</a>
-                </div>
-                <div>
-                    <p className="font-semibold">12. 2021 Korean Government Scholarship - Fully Funded</p>
-                    <a className="text-blue-500" href="https://oyaop.com/opportunity/scholarships-and-fellowships/2021-korean-government-scholarship-fully-funded/">https://oyaop.com/opportunity/scholarships-and-fellowships/2021-korean-government-scholarship-fully-funded/</a>
-                </div>
-                <p>Application Deadline: December 01, 2021</p>
-                <div>
-                    <p className="font-semibold">13. Fulbright Scholarship</p>
-                    <a className="text-blue-500" href="https://aseanop.com/fulbright-scholar-program-awards-2022-2023/">https://aseanop.com/fulbright-scholar-program-awards-2022-2023/</a>
-                </div>
-                <p>Application Deadline: September 15, 2021</p>
-                <div>
-                    <p className="font-semibold">14. SNU Korea Scholarship is a Fully Funded Scholarship to Study Masters/MPhil and PhDand MS leading to PhD for Spring 2022.</p>
-                    <a className="text-blue-500" href="https://opportunitiescorners.info/snu-scholarship/">https://opportunitiescorners.info/snu-scholarship/</a>
-                </div>
-                <p>Application Deadline: July 15, 2021</p>
-                <div>
-                    <p className="font-semibold">15. Scholarships in Australia: Top picks for international students in 2021</p>
-                    <a className="text-blue-500" href="https://www.studyinternational.com/news/scholarships-in-australia/">https://www.studyinternational.com/news/scholarships-in-australia/</a>
-                </div>
-                <div>
-                    <p className="font-semibold">16. Yunnan University admissions for international students Chinese Government Scholarship is now open for application!</p>
-                </div>
-                <p>Application Deadline: April 08, 2022</p>
-                       <p>For any inquiries, please feel free to contact: Ms. Fu/ Ms. Chu through 86-871-65032910 or</p>
-            <a className="text-blue-500" href="lxsk@ynu.edu.cn">lxsk@ynu.edu.cn</a> 
+
+            <div className="flex flex-col gap-3">
+    <p className="text-4xl text-red-700">Merit-Based Scholarship During Admission (undergrad):</p>
+
+    <div className="shadow-2xl">
+
+    <p className="font-bold bg-slate-200 p-5">Application Tuition Fee Waiver: 100%</p>
+    <div className="bg-white p-5">
+        <p className="font-bold">Eligibility</p>
+    <p><li className="list-disc py-2"> <span className="font-bold">National Curriculum (both Bangla & English version): </span>
+Students who obtained GPA of 5.0 (without 4th subject) in both SSC and HSC (Golden A plus).</li></p>
+    <p><li className="list-disc py-2"> <span className="font-bold">International Curriculum: </span>
+    A grade in all subjects of Ordinary level (at least 5 subjects) and Advance level (at least 2 subjects).</li></p>
+    </div>
+
+    <div className="bg-white p-5">
+        <p className="font-bold">Conditions</p>
+    <p><li className="list-disc py-2"> This Scholarship will be effective for the first trimester/semester only.</li></p>
+    <p><li className="list-disc py-2"> This Scholarship will only apply to regular undergraduate and graduate students and will not be applicable to Diploma and Transfer students.</li></p>
+    </div>
+
+
+    <p className="font-bold bg-slate-200 p-5">Application Tuition Fee Waiver: 50%</p>
+    <div className="bg-white p-5">
+        <p className="font-bold">Eligibility</p>
+    <p><li className="list-disc py-2"> <span className="font-bold">National Curriculum (both Bangla & English version): </span>Students who obtained GPA of 5.0 (with 4th subject) in both SSC and HSC.</li></p>
+    <p><li className="list-disc py-2"> <span className="font-bold">International Curriculum: </span>
+    Atleast 4 &apos;A&apos; grades in ine Ordinary level subjects and at least 1 &apos;A&apos; Advance level subjects.
+The rest of the subjects of both levels must have at least a B grade.</li></p>
+    </div>
+
+    <div className="bg-white p-5">
+        <p className="font-bold">Conditions</p>
+    <p><li className="list-disc py-2"> To continue with the scholarship benefit, the student must maintain a CGPA of 3.80 in each consecutive trimester/semester.</li></p>
+    <p><li className="list-disc py-2"> The student must take at least 12 credit hours in each trimester/semester-except their last trimester/semester with the university.</li></p>
+    </div>
+
+
+
+    <p className="font-bold bg-slate-200 p-5">Application Tuition Fee Waiver: 25%</p>
+    <div className="bg-white p-5">
+        <p className="font-bold">Eligibility</p>
+    <p><li className="list-disc py-2"> <span className="font-bold">National Curriculum (both Bangla & English version): </span>Students who obtained a combined GPA of 9.00 in SSC and HSC but did not obtain below a GPA of 4.00 in any level.</li></p>
+    <p><li className="list-disc py-2"> <span className="font-bold">International Curriculum: </span>
+    Atleast 3 &apos;A&apos; grades in the Ordinary level subjects and at least 1 &apos;A&apos; Advance level subjects:
+The rest of the subjects of both levels must have at least a &apos;B&apos; grade.</li></p>
+    </div>
+
+    <div className="bg-white p-5">
+        <p className="font-bold">Conditions</p>
+    <p><li className="list-disc py-2"> The Scholarship is only applicable to tuition fees for regular courses.</li></p>
+    <p><li className="list-disc py-2"> The Scholarship will not be applicable for tuition fees for retake/incomplete/seli-study courses; admission fees, trimester/semester activity fees, or any other fees, penalties, or fines.</li></p>
+    </div>
+
+    
+</div>
+
+
+</div>
+
+
+               
             </div>
 
         </div>
