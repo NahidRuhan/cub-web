@@ -3,6 +3,7 @@ import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import NewsComponent from "../../shared/NewsComponent";
 import TertioryNav from "../../shared/TertioryNav";
+import banner from "../../assets/news and events.png"
 
 const EventsNews = () => {   
 
@@ -18,7 +19,7 @@ const EventsNews = () => {
             <div>
         <img
           className="w-full h-96"
-          src="https://i.ibb.co/bBTKqtp/banner2.jpg"
+          src={banner}
           alt=""
         />
       </div> 

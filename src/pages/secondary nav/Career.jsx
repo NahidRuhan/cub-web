@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import TertioryNav from "../../shared/TertioryNav";
+import banner from "../../assets/career.jpg"
 const Career = () => {
     return (
         <div>
@@ -11,7 +12,7 @@ const Career = () => {
 
             <img
           className="w-full h-96"
-          src="https://i.ibb.co/bBTKqtp/banner2.jpg"
+          src={banner}
           alt=""
         />
 

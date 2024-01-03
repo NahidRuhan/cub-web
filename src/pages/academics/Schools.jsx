@@ -147,7 +147,7 @@ const Schools = () => {
     style={{ filter: isHoveredBBA ? 'brightness(70%)' : 'brightness(100%)' }}
     />
     <h2 className="font-bold text-2xl font-roboto text-logoRed">Bachelor Of Business Administration (BBA)</h2>
-    <p className="font-normal text-lg font-nunito">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsa laborum vel. Ducimus alias autem laudantium assumenda odit deleniti dolorum repellendus et nobis dolores itaque illum velit quidem recusandae ratione, aspernatur consectetur deserunt voluptatibus voluptatem eveniet corrupti molestias maiores quos? Obcaecati, enim! Quod, hic! Omnis sapiente ullam commodi blanditiis dolorum?</p>
+    <p className="font-normal text-lg font-nunito">The BBA program aims to produce high quality graduates who will be able to place themselves in top ranked positions in local and global companies. This program equips students with the knowledge and skills to prepare them for entry-level management positions and advance to leadership positions in any organization. The program also prepares students to go for higher studies in reputed foreign universities. School of Business combines best practices from academia and industry to impart contemporary business practices to its graduates. The program offers majors in Accounting, Business Intelligence & Data Analytics, Entrepreneurship, Finance, Human Resource Management, Marketing, Digital Marketing & E-Commerce and Operations and Supply Chain Management. The BBA is a 126-credit hour program having a standard duration of 4 years.</p>
     </div>
     <div
     className={`absolute bottom-0 left-0 w-full h-3 bg-black transition-all duration-300 opacity-0 ${
@@ -170,7 +170,8 @@ const Schools = () => {
     style={{ filter: isHoveredMBA ? 'brightness(70%)' : 'brightness(100%)' }}
     />
     <h2 className="font-bold text-2xl font-roboto text-logoRed">Masters Of Business Administration (MBA)</h2>
-    <p className="font-normal text-lg font-nunito">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsa laborum vel. Ducimus alias autem laudantium assumenda odit deleniti dolorum repellendus et nobis dolores itaque illum velit quidem recusandae ratione, aspernatur consectetur deserunt voluptatibus voluptatem eveniet corrupti molestias maiores quos? Obcaecati, enim! Quod, hic! Omnis sapiente ullam commodi blanditiis dolorum?</p>
+    <p className="font-normal text-lg font-nunito">The Master of Business Administration (MBA) program at Canadian University of Bangladesh&apos;s School of Business seeks to provide students with the opportunity to understand and apply modern business and management concepts, values, tools, techniques, and operations. At CUB, you&apos;ll engage in an entirely new personalized lessons that provides you more time to communicate and share expertise with your peers, led by a team of internationally recognized academics and business professionals.
+This program is intended for recent graduates who are entering the job marketplace for the primary time, mid-level executives in organizations seeking professional progression, career changers exploring new industries, or entrepreneurs looking to launch their first firm. We provide a distinctive, relevant, and highly fulfilling program of study at Canadian University Business School that will advance your job prospects while providing you with an amazing life experience. Study for your MBA program using the most contemporary across the globe curricula.</p>
     </div>
     <div
     className={`absolute bottom-0 left-0 w-full h-3 bg-black transition-all duration-300 opacity-0 ${
@@ -192,7 +193,7 @@ const Schools = () => {
     style={{ filter: isHoveredEMBA ? 'brightness(70%)' : 'brightness(100%)' }}
     />
     <h2 className="font-bold text-2xl font-roboto text-logoRed">Executive Bachelor Of Business Administration (EMBA)</h2>
-    <p className="font-normal text-lg font-nunito">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsa laborum vel. Ducimus alias autem laudantium assumenda odit deleniti dolorum repellendus et nobis dolores itaque illum velit quidem recusandae ratione, aspernatur consectetur deserunt voluptatibus voluptatem eveniet corrupti molestias maiores quos? Obcaecati, enim! Quod, hic! Omnis sapiente ullam commodi blanditiis dolorum?</p>
+    <p className="font-normal text-lg font-nunito">The Executive MBA (EMBA) program at Canadian University of Bangladesh Business School seeks to empower business leaders by teaching them how to use theoretical knowledge in actual settings and make sound judgments. This curriculum is created primarily for corporate leaders, public servants, social entrepreneurs, NGO executives, military authorities, and other professions. The two most prominent characteristics of the program are interactive learning and case-based teaching. The Executive MBA (EMBA) will prepare you for a career in leadership and general management. Expand your current job or go beyond your technical specialization. Allow the EMBA to be your spark for fostering into a more senior post, a new function or geographic location, or the establishment of your own business endeavor.</p>
     </div>
     <div
     className={`absolute bottom-0 left-0 w-full h-3 bg-black transition-all duration-300 opacity-0 ${

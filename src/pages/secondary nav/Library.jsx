@@ -1,12 +1,14 @@
+import LibraryNav from "../../shared/LibraryNav";
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
-import TertioryNav from "../../shared/TertioryNav";
 const Library = () => {
     return (
         <div>
             <SecondaryNav></SecondaryNav>
             <LogoNav></LogoNav>
-            <TertioryNav></TertioryNav>
+            <LibraryNav></LibraryNav>
+
+            <p className="text-4xl text-center font-bold">Library section here</p>
         </div>
     );
 };

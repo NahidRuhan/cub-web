@@ -14,7 +14,7 @@ const SecondaryNav = () => {
             <p className="text-white text-xl"><TbMinusVertical /></p>
             <Link to='/conference' className="nav-link"><p className="hover:text-red-500 nav-text">DSW</p></Link>
             <p className="text-white text-xl"><TbMinusVertical /></p>
-            <Link to='http://ums.cub.edu.bd/ums/ems/index.php' className="nav-link"><p className="hover:text-red-500 nav-text">Library</p></Link>
+            <Link to='/library' className="nav-link"><p className="hover:text-red-500 nav-text">Library</p></Link>
             <p className="text-white text-xl"><TbMinusVertical /></p>
             <Link to='/career' className="nav-link"><p className="hover:text-red-500 nav-text">Career</p></Link>
             <p className="text-white text-xl"><TbMinusVertical /></p>
