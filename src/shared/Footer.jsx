@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="bg-logoRed text-white p-5">
         
         <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl">
-            <div className="flex justify-center  w-1/6 h-auto mx-auto">
+            <div className="flex justify-center w-1/2 md:w-2/6 lg:w-1/6 h-auto mx-auto">
                 <img className="" src="https://canadianuv.netlify.app/Images/CUBWhite.png" alt="" />
 
             </div>

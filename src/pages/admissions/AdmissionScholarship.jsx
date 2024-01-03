@@ -12,7 +12,7 @@ const AdmissionScholarship = () => {
             <TertioryNav></TertioryNav>
 
             <div className="bg-logoRed text-white">
-            <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 h-60 items-center">
+            <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 h-52 items-center">
 
                 <h1 className="text-3xl md:text-4xl lg:text-6xl py-3">Scholarship / Financial Aid</h1>
                 <div className="flex gap-3">

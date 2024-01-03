@@ -4,6 +4,7 @@ import SecondaryNav from "../../shared/SecondaryNav";
 import Scholarship from "../home/Scholarship";
 import { IoMdArrowDropright } from "react-icons/io";
 import TertioryNav from "../../shared/TertioryNav";
+import banner from "../../assets/announcement.jpg"
 
 
 
@@ -15,9 +16,9 @@ const Admissions = () => {
             <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
             <div>
-        <img
+            <img
           className="w-full h-96"
-          src="https://i.ibb.co/bBTKqtp/banner2.jpg"
+          src={banner}
           alt=""
         />
       </div> 

@@ -1,5 +1,5 @@
 const Scholarship = () => {
-    const backgroundImageUrl = 'https://i.ibb.co/xmkNx02/Scholarship.jpg';
+    const backgroundImageUrl = 'https://i.ibb.co/WFcVWg5/image.jpg';
 
     return (
         <div
@@ -10,7 +10,7 @@ const Scholarship = () => {
                 backgroundPosition: 'center',
             }}
         >
-            <div className="flex flex-col justify-center items-center h-screen mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 gap-3 lg:gap-10">
+            <div className="flex flex-col justify-center items-center h-screen mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl pt-20 gap-3 lg:gap-10">
                 <div className="flex flex-col gap-3 lg:gap-10 text-center">
                     <h1 className="font-roboto font-normal text-3xl lg:text-5xl">Scholarships and Financial Aid</h1>
                     <p className="font-nunito font-normal text-base lg:text-2xl">Each semester, Canadian University Of Bangladesh is proud to honor academically talented and exceptionally skilled students with a variety of scholarships and awards. The university annually awards more than 100 million takas as scholarships to both undergraduate and postgraduate students.</p>

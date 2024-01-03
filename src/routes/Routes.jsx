@@ -11,7 +11,6 @@ import Schools from "../pages/academics/Schools";
 import Center from "../pages/academics/Center";
 import Fees from "../pages/academics/Fees";
 import Departments from "../pages/academics/departments/Departments";
-import Policy from "../pages/academics/Policy";
 import Leadership from "../pages/about/Leadership";
 import Chairman from "../pages/about/Chairman";
 import Vc from "../pages/about/Vc";
@@ -92,10 +91,6 @@ const router = createBrowserRouter([
             {
                 path: '/academics/fees-payment',
                 element: <Fees></Fees>
-            },
-            {
-                path: '/academics/policy-procedure',
-                element: <Policy></Policy>
             },
             {
                 path: '/admissions',

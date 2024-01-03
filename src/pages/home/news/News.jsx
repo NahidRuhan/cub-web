@@ -17,17 +17,17 @@ const News = () => {
             setLatest(true);
             setFeatured(false);
             setEvents(false);
-            }} className={latest ? `btn btn-primary bg-red-500 text-black `: `btn btn-primary bg-white text-black `}>Latest News</button></div>
+            }} className={latest ? `bg-red-500 text-black font-bold py-2 px-4 rounded`: `bg-slate-200 text-black font-bold py-2 px-4 rounded`}>Latest News</button></div>
             <div><button onClick={()=>{
                 setFeatured(true);
                 setLatest(false);
                 setEvents(false);
-            }} className={featured ? `btn btn-primary bg-red-500 text-black `: `btn btn-primary bg-white text-black `}>Featured Events</button></div>
+            }} className={featured ? `bg-red-500 text-black font-bold py-2 px-4 rounded`: `bg-slate-200 text-black font-bold py-2 px-4 rounded`}>Featured Events</button></div>
             <div><button onClick={()=>{
                 setEvents(true);
                 setLatest(false);
                 setFeatured(false);
-            }} className={events ? `btn btn-primary bg-red-500 text-black `: `btn btn-primary bg-white text-black `}>Events</button></div>
+            }} className={events ? `bg-red-500 text-black font-bold py-2 px-4 rounded`: `bg-slate-200 text-black font-bold py-2 px-4 rounded`}>Events</button></div>
             {/* <div><button className="btn btn-primary bg-white text-black">Events</button></div>
             <div><button className="btn btn-primary bg-white text-black">In Medea</button></div> */}
             </div>

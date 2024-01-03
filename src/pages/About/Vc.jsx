@@ -23,7 +23,7 @@ const Vc = () => {
     </div>
     <div className="lg:w-1/2">
         <div className="flex flex-col gap-5">
-            <p>Our University exists for the sole purpose of transferring knowledge and experience from those of us who have it to those of us who need it. We make every effort to deliver practice based knowledge in ways that make it possible for us help each other solve our problems. This is the fundamental basis of our human existence. It is the fundamental challenge of our University. We are rewarded exclusively on the basis of how well we do this important work; how able we are to apply our cumulative knowledge and experience to solving humanities most intractable problems, hunger, poverty, inequality and waste.</p>
+            <p className="text-justify">Our University exists for the sole purpose of transferring knowledge and experience from those of us who have it to those of us who need it. We make every effort to deliver practice based knowledge in ways that make it possible for us help each other solve our problems. This is the fundamental basis of our human existence. It is the fundamental challenge of our University. We are rewarded exclusively on the basis of how well we do this important work; how able we are to apply our cumulative knowledge and experience to solving humanities most intractable problems, hunger, poverty, inequality and waste.</p>
             <div>
             <p className="text-lg font-normal text-[#f4253f]">Prof. DR. H M JAHIRUL HAQUE</p>
             <p className="text-base font-normal text-[#f4253f]">Vice Chancellor</p>
