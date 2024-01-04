@@ -1,7 +1,7 @@
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import TertioryNav from "../../shared/TertioryNav";
-import banner from "../../assets/centers and institutions.jpg"
+import banner from "../../assets/dewanbagi.png"
 
 const Center = () => {
     return (

@@ -5,7 +5,7 @@ import TertioryNav from "../../shared/TertioryNav";
 
 const Collaboration = () => {
     return (
-        <div className="text-justify">
+        <div className="">
             <SecondaryNav></SecondaryNav>
 
 <LogoNav></LogoNav>
@@ -24,7 +24,7 @@ const Collaboration = () => {
             </div>                
             </div>
 
-            <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 flex flex-col gap-5">
+            <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 flex flex-col gap-5 text-justify">
 
                 <div>
                     <h1 className="text-lg font-normal text-[#f4253f]">Bangladesh Army and Canadian University of Bangladesh Sign Memorandum of Understanding</h1>

@@ -36,8 +36,7 @@ const TuitionAndFees = () => {
   <table style={{ width: 'max-content', tableLayout: 'fixed' }}>
   <tr>
     <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Programs</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Duration (Calender)</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Duration (Semester)</th>
+    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Duration</th>
     <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Credit Hour</th>
     <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Per Credit Fee</th>
     <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Tuition Fee</th>
@@ -48,8 +47,7 @@ const TuitionAndFees = () => {
   </tr>
   <tr>
   <td style={{ border: '1px solid', padding: '5px' }}>B. Sc. in Computer Science & Engineering (CSE)</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>12</td>
+  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years / 12 semester</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>150</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>3300</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4,95,000</td>
@@ -59,8 +57,7 @@ const TuitionAndFees = () => {
   </tr>
   <tr>
     <td style={{ border: '1px solid', padding: '5px' }}>Bachelor of Business Administration (BBA)</td>
-    <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years</td>
-    <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>12</td>
+    <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years / 12 semester</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>126</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>3300</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4,15,800</td>
@@ -70,8 +67,7 @@ const TuitionAndFees = () => {
   </tr>
   <tr>
   <td style={{ border: '1px solid', padding: '5px' }}>B. Sc. in Electrical & Electronic Engineering (EEE)</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>12</td>
+  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years / 12 semester</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>154</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>3300</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>5,08,200</td>
@@ -81,8 +77,7 @@ const TuitionAndFees = () => {
   </tr>  
   <tr>
   <td style={{ border: '1px solid', padding: '5px' }}>Bachelor of Science in Shipping & Maritime Science (SMS)</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>12</td>
+  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years / 12 semester</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>150</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>3500</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>5,25,000</td>
@@ -92,8 +87,7 @@ const TuitionAndFees = () => {
   </tr>
   <tr>
   <td style={{ border: '1px solid', padding: '5px' }}>BA in Media, Communication and Journalism (MCJ)</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>12</td>
+  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years / 12 semester</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>132</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>2600</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>3,43,200</td>
@@ -103,8 +97,7 @@ const TuitionAndFees = () => {
   </tr>
   <tr>
   <td style={{ border: '1px solid', padding: '5px' }}>BA in English</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>12</td>
+  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years / 12 semester</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>120</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>2550</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>3,06,000</td>
@@ -114,8 +107,7 @@ const TuitionAndFees = () => {
   </tr>
   <tr>
   <td style={{ border: '1px solid', padding: '5px' }}>LL.B. (Hons.) Bi- Semester</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>8</td>
+  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years / 12 semester</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>140</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>2600</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>3,64,000</td>
@@ -125,8 +117,7 @@ const TuitionAndFees = () => {
   </tr>       
   <tr>
   <td style={{ border: '1px solid', padding: '5px' }}>B. Sc. in Computer Science & Engineering (CSE), Diploma Evening*</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>12</td>
+  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years / 12 semester</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>150</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>1200</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>1,80,000</td>
@@ -136,8 +127,7 @@ const TuitionAndFees = () => {
   </tr>
   <tr>
   <td style={{ border: '1px solid', padding: '5px' }}>B. Sc. in Electrical & Electronic Engineering (EEE), Diploma Evening</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>12</td>
+  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4 years / 12 semester</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>154</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>1200</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>1,84,800</td>

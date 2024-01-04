@@ -3,7 +3,7 @@ import LogoNav from '../../shared/LogoNav';
 import SecondaryNav from '../../shared/SecondaryNav';
 import TertioryNav from '../../shared/TertioryNav';
 import { useState } from 'react';
-import banner from "../../assets/school.jpg"
+import banner from "../../assets/school.png"
 
 const Schools = () => {
 

@@ -1,6 +1,7 @@
 import LibraryNav from "../../shared/LibraryNav";
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
+import banner from "../../assets/library.png"
 const Library = () => {
     return (
         <div>
@@ -8,8 +9,11 @@ const Library = () => {
             <LogoNav></LogoNav>
             <LibraryNav></LibraryNav>
 
-            <p className="text-4xl text-center font-bold">Library section here</p>
-        </div>
+            <img
+          className="w-full h-96"
+          src={banner}
+          alt=""
+        />        </div>
     );
 };
 

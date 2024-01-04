@@ -4,7 +4,7 @@ import SecondaryNav from "../../shared/SecondaryNav";
 import Scholarship from "../home/Scholarship";
 import { IoMdArrowDropright } from "react-icons/io";
 import TertioryNav from "../../shared/TertioryNav";
-import banner from "../../assets/announcement.jpg"
+import banner from "../../assets/admission.png"
 
 
 

@@ -4,6 +4,7 @@ import SecondaryNav from "../../../shared/SecondaryNav";
 import { useState } from 'react';
 import TertioryNav from "../../../shared/TertioryNav";
 import general from '../../../assets/general.jpg'
+import banner from "../../../assets/department.png"
 
 
 const Departments = () => {
@@ -25,7 +26,7 @@ const Departments = () => {
             <div>
         <img
           className="w-full h-96"
-          src="https://i.ibb.co/bBTKqtp/banner2.jpg"
+          src={banner}
           alt=""
         />
       </div> 
