@@ -107,7 +107,7 @@ const Schools = () => {
     <div className="flex flex-col gap-2">
     <img
     className="w-full h-72"
-    src="https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    src="https://sms.cub.edu.bd/img/slider/ds4.jpg"
     alt=""
     style={{ filter: isHoveredSMS ? 'brightness(70%)' : 'brightness(100%)' }}
     />
@@ -142,7 +142,7 @@ const Schools = () => {
     <div className="flex flex-col gap-2">
     <img
     className="w-full h-72"
-    src="https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    src="https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/190518420_10157983380756990_834887716827972937_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=KoZx9EHV3McAX9vog5a&_nc_ht=scontent.fdac5-1.fna&oh=00_AfBq0yoL--fC4RHmKQVgjJZmAPYVOWpsCdFsQJgCZP2vUg&oe=65BDC8A4"
     alt=""
     style={{ filter: isHoveredBBA ? 'brightness(70%)' : 'brightness(100%)' }}
     />
@@ -165,7 +165,7 @@ const Schools = () => {
     <div className="flex flex-col gap-2">
     <img
     className="w-full h-72"
-    src="https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    src="https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/194635250_10157983381026990_8791835497445611278_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=MEUFmTnJYv8AX9BQY_4&_nc_ht=scontent.fdac5-2.fna&oh=00_AfB6NZE-Y_AuCHjpMNK6xD5HXHzYjgJJQAKoo6kN1DitCw&oe=65BDAF5D"
     alt=""
     style={{ filter: isHoveredMBA ? 'brightness(70%)' : 'brightness(100%)' }}
     />
@@ -188,7 +188,7 @@ This program is intended for recent graduates who are entering the job marketpla
     <div className="flex flex-col gap-2">
     <img
     className="w-full h-72"
-    src="https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    src="https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/198595056_10157983380621990_2030119732197934893_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=seBkXN59-_4AX8wZzUn&_nc_ht=scontent.fdac5-1.fna&oh=00_AfBYd389FlbBO3LzOoFep_taI1G0kXslyNd9qmDzq_mocQ&oe=65BDE0F6"
     alt=""
     style={{ filter: isHoveredEMBA ? 'brightness(70%)' : 'brightness(100%)' }}
     />
@@ -219,7 +219,7 @@ This program is intended for recent graduates who are entering the job marketpla
     <div className="flex flex-col gap-2">
     <img
     className="w-full h-72"
-    src="https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    src="https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/141976684_2087047564765367_2353720068227971290_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=xIVwUKogxlMAX8jV22s&_nc_ht=scontent.fdac5-1.fna&oh=00_AfBYmNibqV_7DQ5lXmSaXhvZDM4GFbBvBvqpqliF0d7VKw&oe=65BDC320"
     alt=""
     style={{ filter: isHoveredEnglish ? 'brightness(70%)' : 'brightness(100%)' }}
     />
@@ -242,7 +242,7 @@ This program is intended for recent graduates who are entering the job marketpla
     <div className="flex flex-col gap-2">
     <img
     className="w-full h-72"
-    src="https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    src="https://scontent.fdac5-1.fna.fbcdn.net/v/t39.30808-6/272123248_2766521430318461_1434362595477362743_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=173fa1&_nc_ohc=yDeabj5LYWoAX9LWJJc&_nc_ht=scontent.fdac5-1.fna&oh=00_AfB-CwYyMXNBVuQJSeDEFAUsMUm24z0Eqz4jmFN_LZMDOw&oe=659C152A"
     alt=""
     style={{ filter: isHoveredLaw ? 'brightness(70%)' : 'brightness(100%)' }}
     />
@@ -264,7 +264,7 @@ This program is intended for recent graduates who are entering the job marketpla
     <div className="flex flex-col gap-2">
     <img
     className="w-full h-72"
-    src="https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    src="https://scontent.fdac5-2.fna.fbcdn.net/v/t39.30808-6/297259190_4751265774974527_7412224896139489089_n.png?stp=dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=173fa1&_nc_ohc=eOIUJXr6Q5QAX-S-3IO&_nc_ht=scontent.fdac5-2.fna&oh=00_AfBbUjN9WEYBmcu3H_k8bGadvK6amqqv6BVpTfdF4u7M5g&oe=659B4353"
     alt=""
     style={{ filter: isHoveredMCJ ? 'brightness(70%)' : 'brightness(100%)' }}
     />

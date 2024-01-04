@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Scholarship = () => {
     const backgroundImageUrl = 'https://i.ibb.co/WFcVWg5/image.jpg';
 
@@ -15,8 +16,11 @@ const Scholarship = () => {
                     <h1 className="font-roboto font-normal text-3xl lg:text-5xl">Scholarships and Financial Aid</h1>
                     <p className="font-nunito font-normal text-base lg:text-2xl">Each semester, Canadian University Of Bangladesh is proud to honor academically talented and exceptionally skilled students with a variety of scholarships and awards. The university annually awards more than 100 million takas as scholarships to both undergraduate and postgraduate students.</p>
                 </div>
-                <div className="mt-5 lg:mt-10"> 
+                <div className="mt-5 lg:mt-10">
+                    <Link to='/admissions/scholarship'>
                     <button className="btn btn-error text-white">Know More</button>
+                    </Link> 
+                    
                 </div> 
             </div>
         </div>

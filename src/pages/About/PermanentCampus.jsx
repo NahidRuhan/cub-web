@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import LogoNav from '../../shared/LogoNav';
 import SecondaryNav from '../../shared/SecondaryNav';
 import TertioryNav from '../../shared/TertioryNav';
+import Campus from '../home/Campus';
 const PermanentCampus = () => {
     return (
         <div>
@@ -33,6 +34,8 @@ const PermanentCampus = () => {
             <p>It has facilities to accommodate around 12,000-15,000 students. It is a green conceptual building where natural light and air can easily flow into the building. Almost 50% of the land is used for building and the rest for water body, lake, plantation and other purposes aimed at providing biodiversity. The advanced, eco-friendly and attractive campus will enhance the University spirit, thereby creating a healthy and positive environment for the students. WOHA Designs Pte Ltd., Singapore based world-renowned architectural firm has designed this project.</p>
 
         </div>
+
+        <Campus></Campus>
             
         </div>
     );

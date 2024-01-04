@@ -10,6 +10,15 @@ const Latest = () => {
 
       <div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[750px] xl:h-[650px] ">
         <div className="flex flex-col gap-2">
+          <img className="w-full h-72" src="https://gallery.cub.ac.bd/var/albums/Web-Photos/CUB/Home/news/News-and-Event.jpg?m=1702822661" alt="" />
+          <h2 className="font-bold text-2xl font-roboto text-logoRed">Canadian University of Bangladesh Acknowledges HSC Toppers with Merit Awards</h2>
+          <p className="text-sm flex items-center gap-2"><span><SlCalender /></span>2023-12-17</p>
+          <p className="font-normal text-base font-nunito">The Canadian University of Bangladesh honoured the successful HSC and equivalent exam students of 2023 with a commendation. Dr. Chowdhury Nafeez Sarafat, the...</p>
+        </div>
+      </div>
+
+      <div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[750px] xl:h-[650px] ">
+        <div className="flex flex-col gap-2">
           <img className="w-full h-72" src={latest1} alt="" />
           <h2 className="font-bold text-2xl font-roboto text-logoRed">CUB and Texas A&M University Lab Sign Memorandum of Understanding to Promote Collaboration in Education and Research</h2>
           <p className="text-sm flex items-center gap-2"><span><SlCalender /></span>2023-11-26</p>

@@ -32,17 +32,17 @@ const TuitionAndFees = () => {
     <p className="text-4xl text-red-700">Fees for  Graduate Students</p>
 </div>
 
-                <div style={{ overflowX: 'auto' }}>
+                <div className="text-xs" style={{ overflowX: 'auto' }}>
   <table style={{ width: 'max-content', tableLayout: 'fixed' }}>
   <tr>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Programs</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Duration</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Credit Hour</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Per Credit Fee</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Tuition Fee</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Registration Fee</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Admission Fee</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Cost</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Programs</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Duration</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Credit Hour</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Per Credit Fee</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Tuition Fee</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Registration Fee</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Admission Fee</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Cost</th>
 
   </tr>
   <tr>
@@ -142,24 +142,22 @@ const TuitionAndFees = () => {
     <p className="text-4xl text-red-700">Fees for Post Graduate Students</p>
 </div>
 
-                <div style={{ overflowX: 'auto' }}>
+                <div className="text-xs" style={{ overflowX: 'auto' }}>
   <table style={{ width: 'max-content', tableLayout: 'fixed' }}>
   <tr>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Programs</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Duration (Calender)</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Duration (Semester)</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Credit Hour</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Per Credit Fee</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Tuition Fee</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Registration Fee</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Admission Fee</th>
-    <th style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Cost</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Programs</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Duration</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Credit Hour</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Per Credit Fee</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Tuition Fee</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Registration Fee</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Admission Fee</th>
+    <th className="text-xs w-[110px]" style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>Total Cost</th>
 
   </tr>
   <tr>
     <td style={{ border: '1px solid', padding: '5px' }}>Master of Business Administration (MBA)</td>
-    <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>1 year 8 months</td>
-    <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>5</td>
+    <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>1 year 8 months / 5 semester</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>60</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>3000</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>1,80,000</td>
@@ -169,8 +167,7 @@ const TuitionAndFees = () => {
   </tr>
   <tr>
   <td style={{ border: '1px solid', padding: '5px' }}>Executive Master of Business Administration (EMBA)</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>1 year 4 months</td>
-  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4</td>
+  <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>1 year 4 months / 4 semester</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>48</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>2500</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>1,20,000</td>
@@ -180,8 +177,7 @@ const TuitionAndFees = () => {
   </tr>  
   <tr>
     <td style={{ border: '1px solid', padding: '5px' }}>Master in Maritime Transportation and Logistics (MTL)</td>
-    <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>1 year 8 months</td>
-    <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>5</td>
+    <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>1 year 8 months / 5 semester</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>60</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>4200</td>
     <td style={{ border: '1px solid', padding: '5px', textAlign: 'center' }}>2,52,000</td>

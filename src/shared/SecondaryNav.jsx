@@ -1,8 +1,22 @@
 import { Link } from "react-router-dom";
 import { TbMinusVertical } from "react-icons/tb";
+import { useState } from "react";
 
 
 const SecondaryNav = () => {
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  const handleDropdown = () => {
+    setShowDropdown(!showDropdown);
+  };
+
+  const handleMouseEnter = () => {
+    setShowDropdown(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowDropdown(false);
+  };
   return (
     <div className="bg-red-200">
       <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl hidden lg:flex gap-0 justify-end px- font-roboto font-normal text-lg text-center items-center">
@@ -10,9 +24,22 @@ const SecondaryNav = () => {
             <p className="text-white text-xl"><TbMinusVertical /></p>
             <Link to='/teaching-research' className="nav-link"><p className="hover:text-red-500 nav-text">Teaching &amp; Research</p></Link>
             <p className="text-white text-xl"><TbMinusVertical /></p>
-            <Link to='/conference' className="nav-link"><p className="hover:text-red-500 nav-text">SSW</p></Link>
+            <Link  className="nav-link"><p className="hover:text-red-500 nav-text">SSW</p></Link>
             <p className="text-white text-xl"><TbMinusVertical /></p>
-            <Link to='/conference' className="nav-link"><p className="hover:text-red-500 nav-text">DSW</p></Link>
+            {/* to='/conference' */}
+            <div          
+          className="relative"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}>
+            <Link className="nav-link" onMouseEnter={handleDropdown} onMouseLeave={handleDropdown}>
+          <p className="hover:text-red-500 nav-text">DSW</p>
+          {showDropdown && (
+            <div className="absolute bg-white p-2 mt-16 ml-0 w-32 rounded shadow-lg">
+              <Link><p className="text-black text-sm">Proctors Office</p></Link>
+            </div>
+          )}
+        </Link>              
+            </div>
             <p className="text-white text-xl"><TbMinusVertical /></p>
             <Link to='/library' className="nav-link"><p className="hover:text-red-500 nav-text">Library</p></Link>
             <p className="text-white text-xl"><TbMinusVertical /></p>

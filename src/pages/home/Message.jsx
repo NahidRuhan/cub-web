@@ -1,19 +1,46 @@
+import { TypeAnimation } from 'react-type-animation';
+import { useEffect, useRef, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 
 const Message = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const [animationTriggered, setAnimationTriggered] = useState(false);
+    const animationRef = useRef(null);
+    const [ref, inView] = useInView({
+      threshold: 0.5, // Adjust the threshold as needed
+    });
+  
+    useEffect(() => {
+      if (inView && !animationTriggered) {
+        setIsVisible(true);
+        setAnimationTriggered(true);
+      }
+    }, [inView, animationTriggered]);
     return (
-        <div>
+        <div ref={ref}>
 
 <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10">
 <div className="flex flex-col lg:flex-row justify-center items-center gap-5">
-<div className="lg:w-1/2 relative">
-        <img className="w-full lg:w-3/4 rounded-lg" src="https://canadianuv.netlify.app/Images/Chariman_2.jpg" alt="Chairman" />
-        <div className="absolute bottom-5 left-5 text-white">
-        <p className="text-lg font-normal text-[#f4253f]">Dr. Chowdhury Nafeez Sarafats</p>
-            <p className="text-base font-normal text-[#f4253f]">Founder & Chairman</p>
-            <p className="text-base font-normal text-[#f4253f]">Canadian University of Bangladesh</p>            
-        </div>
-
-    </div>
+<div className="lg:w-1/2 relative flex md:flex-col flex-col-reverse">
+            {isVisible && (
+              <TypeAnimation
+                ref={animationRef}
+                className="text-xl font-bold h-28 md:h-24 text-center md:text-left"
+                style={{ whiteSpace: 'pre-line', display: 'block' }}
+                sequence={[
+                  `Dr. Chowdhury Nafeez Sarafats\nFounder & Chairman\nCanadian University of Bangladesh`,
+                  1000,
+                  '',
+                ]}
+                repeat={Infinity}
+              />
+            )}
+            <img
+              className="w-full lg:w-3/5 rounded-lg"
+              src="https://canadianuv.netlify.app/Images/Chariman_2.jpg"
+              alt="Chairman"
+            />
+          </div>
     <div className="lg:w-1/2">
         <div className="flex flex-col gap-5">
             <h1 className="text-xl font-semibold text-logoRed">&quot;To all my dear students - Work hard. There is no shortcut to success.&quot;</h1>
