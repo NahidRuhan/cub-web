@@ -11,14 +11,13 @@ const Alumni = () => {
             <TertioryNav></TertioryNav>
 
             <div className="w-full h-52 bg-slate-700 flex justify-center items-center text-center text-white">
-  <h1 className="text-3xl">Alumnni Canadian University Of Bangladesh
+  <h1 className="text-3xl">Alumni Canadian University Of Bangladesh
 </h1>
 </div>
 
 <img className="w-2/5 mx-auto" src="https://canadianuv.netlify.app/Alumni/Alumni%201.jpg" alt="" />
 
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10">
-
 
     <img src="https://canadianuv.netlify.app/Alumni/Alumni%202.jpg" alt="" />
     <img src="https://canadianuv.netlify.app/Alumni/Alumni%203.jpg" alt="" />
@@ -29,7 +28,7 @@ const Alumni = () => {
     <img src="https://canadianuv.netlify.app/Alumni/CSE%20Alumni/GSM%20Rana.jpg" alt="" />
     <img src="https://canadianuv.netlify.app/Alumni/CSE%20Alumni/Namrata%20Datta.jpg" alt="" />
     <img src="https://canadianuv.netlify.app/Alumni/CSE%20Alumni/Pranto%20Paul.jpg" alt="" />
-
+    <img className="col-span-3 w-1/4 mx-auto" src="https://i.ibb.co/xJrm3dC/likhon.jpg" alt="" />
 
 </div>
 

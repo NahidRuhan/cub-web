@@ -61,6 +61,52 @@ const Center = () => {
                 </div>
             </div>
             </div>
+            <div className="row mt-5">
+            <h1 className ="text-center" style={{marginBottom:'20px', fontSize: "30px", fontStyle: "bold"}}>
+            Computer Science and Engineering</h1>
+            <div className="flex justify-center"> 
+                <img className='p-4 w-1/3' src="https://gallery.cub.ac.bd/var/albums/Web-Photos/CUB/Home/research/PXL_20221117_063725658_MP_1_50.jpg?m=1694344710" />
+                <img className='p-4 w-1/3' src="https://gallery.cub.ac.bd/var/albums/Web-Photos/CUB/Home/research/PXL_20221117_063848033_MP_1_50.jpg?m=1694344710" />
+                <img className='p-4 w-1/3' src="https://gallery.cub.ac.bd/var/albums/Web-Photos/CUB/Home/research/111111111111111111_50.jpg?m=1694424007" />
+            </div> 
+            <div className="flex flex-col gap-3">
+                <div className="col">
+                    <h1 className="px-8 pb-8">
+                    In the ever-evolving landscape of computer science and networking, socket-based
+                    client-server programming stands as a fundamental pillar that enables communication,
+                    interaction, and data exchange between devices across the digital realm. At CUB our
+                    researchers are diving deep into this technology, uncovering its intricacies, and
+                    harnessing its potential to create a new wave of application and innovation. Our
+                    students and researchers are delving into the intricacies of Boolean algebra to unravel
+                    the potential of two-level minimum combination circuits.
+                    </h1>
+                </div>
+            </div>
+            </div>
+            <div className="row mt-5">
+            <h1 className ="text-center" style={{marginBottom:'20px', fontSize: "30px", fontStyle: "bold"}}>
+            Faculty Research Contribution</h1>
+            <div className="flex flex-col gap-3">
+                <div className="col">
+                    <h1 className="px-8 pb-8" >
+                    In the ever-evolving landscape of computer science and networking, socket-based
+                    client-server programming stands as a fundamental pillar that enables communication,
+                    interaction, and data exchange between devices across the digital realm. At CUB our
+                    researchers are diving deep into this technology, uncovering its intricacies, and
+                    harnessing its potential to create a new wave of application and innovation. Our
+                    students and researchers are delving into the intricacies of Boolean algebra to unravel
+                    the potential of two-level minimum combination circuits.
+                    </h1>
+                </div>
+            </div>
+            <div className="flex justify-center"> 
+                <img className='p-4 w-1/4' src="https://gallery.cub.ac.bd/var/albums/Web-Photos/CUB/Home/research/2.jpg?m=1694422811" />
+                <img className='p-4 w-1/4' src="https://gallery.cub.ac.bd/var/albums/Web-Photos/CUB/Home/research/4.jpg?m=1694422810" />
+                <img className='p-4 w-1/4' src="https://gallery.cub.ac.bd/var/albums/Web-Photos/CUB/Home/research/3.jpg?m=1694422811" />
+                <img className='p-4 w-1/4' src="https://gallery.cub.ac.bd/var/albums/Web-Photos/CUB/Home/research/1%20%281%29.jpg?m=1694422811" />
+            </div>
+            </div>
+
 
 
 

@@ -1,6 +1,8 @@
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import TertioryNav from "../../shared/TertioryNav";
+import research from "../../assets/research.jpg"
+
 const Training = () => {
     return (
         <div>
@@ -8,8 +10,16 @@ const Training = () => {
             <LogoNav></LogoNav>
             <TertioryNav></TertioryNav>
 
-            <div className="bg--100 p-6 rounded-lg shadow-md">
-      <h2 className="text-2xl font-bold mb-4 text-red-700">Faculty Research</h2>
+            <div className="w-full h-52 bg-slate-700 flex justify-center items-center text-center text-white">
+  <h1 className="text-3xl">Training and Research
+</h1>
+</div>
+
+            <div className=" p-6 rounded-lg shadow-md">
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
+                <div className="items-center">
+                <h2 className="text-2xl font-bold mb-4 text-red-700">Faculty Research</h2>
       <ul className="list-disc list-inside pb">
         <li>
         Explore the cutting-edge research conducted by our esteemed faculty members.
@@ -25,6 +35,13 @@ const Training = () => {
           
         </li>
       </ul>
+                </div>
+                <div>
+                  <img className="lg:w-1/2" src={research} alt="" />
+
+                </div>
+              </div>
+
         <div className='h-[100px]'></div>
       <div className="WordSection1">
         <p className="text-center font-bold text-lg mb-4">

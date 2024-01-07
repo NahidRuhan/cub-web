@@ -1,4 +1,5 @@
 import { FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaTwitterSquare, FaYoutubeSquare } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -13,21 +14,18 @@ const Footer = () => {
 <footer className="footer p-10">
   <nav>
     <header className="footer-title text-yellow-100">About</header> 
-    <a className="link link-hover">Mission</a>
-    <a className="link link-hover">Leadership and administration</a>
-    <a className="link link-hover">Career</a>
-    <a className="link link-hover">Permanent Campus</a>
+    <Link to='/about-us/vision-mission'><a className="link link-hover">Mission</a></Link>
+    <Link to='/about-us/leadership-administration'><a className="link link-hover">Leadership and administration</a></Link>
+    <Link to='/career'><a className="link link-hover">Career</a></Link>
+    <Link to='/about-us/permanent-campus'><a className="link link-hover">Permanent Campus</a></Link>
   </nav> 
   <nav>
     <header className="footer-title text-yellow-100">Academics</header> 
-    <a className="link link-hover">Schools</a>
-    <a className="link link-hover">Department</a>
-    <a className="link link-hover">Centers and Institute</a>
-    <a className="link link-hover">Office and Registration</a>
-    <a className="link link-hover">Fees and Payment</a>
-    <a className="link link-hover">Policies and Procedures</a>
-    <a className="link link-hover">Institutional Quality <br></br>Assurance Cell (IQAC)</a>
-    <a className="link link-hover">Teaching and Research</a>
+    <Link to='/academics/schools'><a className="link link-hover">Schools</a></Link>
+    <Link to='/academics/departments'><a className="link link-hover">Department</a></Link>
+    <Link to='/academics/center-institutions'><a className="link link-hover">Centers and Institute</a></Link>
+    <Link to='/admissions/tuition-fees'><a className="link link-hover">Tuition Fees and Policy</a></Link>
+    <Link to='/teaching-research'><a className="link link-hover">Teaching and Research</a></Link>
   </nav> 
   <nav>
     <header className="footer-title text-yellow-100">Campus Life</header> 
@@ -37,8 +35,8 @@ const Footer = () => {
   </nav> 
   <nav>
     <header className="footer-title text-yellow-100">Important Links</header> 
-    <a className="link link-hover">UGC, Bangladesh</a>
-    <a className="link link-hover">Ministry of Education, Bangladesh</a>
+    <Link></Link><a className="link link-hover">UGC, Bangladesh</a>
+    <Link></Link><a className="link link-hover">Ministry of Education, Bangladesh</a>
   </nav> 
 </footer>
 <footer className="p-10 flex flex-col gap-3">

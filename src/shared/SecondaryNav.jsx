@@ -24,18 +24,20 @@ const SecondaryNav = () => {
             <p className="text-white text-xl"><TbMinusVertical /></p>
             <Link to='/teaching-research' className="nav-link"><p className="hover:text-red-500 nav-text">Teaching &amp; Research</p></Link>
             <p className="text-white text-xl"><TbMinusVertical /></p>
-            <Link  className="nav-link"><p className="hover:text-red-500 nav-text">SSW</p></Link>
-            <p className="text-white text-xl"><TbMinusVertical /></p>
             {/* to='/conference' */}
             <div          
           className="relative"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}>
             <Link className="nav-link" onMouseEnter={handleDropdown} onMouseLeave={handleDropdown}>
-          <p className="hover:text-red-500 nav-text">DSW</p>
+          <p className="hover:text-red-500 nav-text">CUB Cares</p>
           {showDropdown && (
-            <div className="absolute bg-white p-2 mt-16 ml-0 w-32 rounded shadow-lg">
+            <div className="absolute bg-white p-2 mt-28 ml-0 w-32 rounded shadow-lg">
+              <Link><p className="text-black text-sm">SSW</p></Link>
+              <Link><p className="text-black text-sm">DSW</p></Link>
               <Link><p className="text-black text-sm">Proctors Office</p></Link>
+              <Link to='/career'><p className="text-black text-sm">Career</p></Link>
+
             </div>
           )}
         </Link>              

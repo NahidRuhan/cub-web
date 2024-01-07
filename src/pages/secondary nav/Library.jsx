@@ -1,7 +1,7 @@
 import LibraryNav from "../../shared/LibraryNav";
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
-import banner from "../../assets/library.png"
+import banner from "../../assets/library2.png"
 const Library = () => {
     return (
         <div>

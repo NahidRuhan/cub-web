@@ -4,7 +4,7 @@ import SecondaryNav from "../../shared/SecondaryNav";
 import permanentCampus from '../../assets/permanent campus.jpeg'
 import TertioryNav from "../../shared/TertioryNav";
 import vision from '../../assets/vision.jpg'
-import banner from "../../assets/about us banner.png"
+import banner from "../../assets/vision mission.png"
 
 const AboutUs = () => {
     return (
