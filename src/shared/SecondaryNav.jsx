@@ -19,7 +19,7 @@ const SecondaryNav = () => {
   };
   return (
     <div className="bg-red-200">
-      <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl hidden lg:flex gap-0 justify-end px- font-roboto font-normal text-lg text-center items-center">
+      <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl hidden lg:flex gap-0 justify-end font-roboto font-normal text-center items-center text-lg">
             <Link to='/academic-calender' className="nav-link"><p className="hover:text-red-500 nav-text">Academic Calendar</p></Link>
             <p className="text-white text-xl"><TbMinusVertical /></p>
             <Link to='/teaching-research' className="nav-link"><p className="hover:text-red-500 nav-text">Teaching &amp; Research</p></Link>
@@ -33,11 +33,9 @@ const SecondaryNav = () => {
           <p className="hover:text-red-500 nav-text">CUB Cares</p>
           {showDropdown && (
             <div className="absolute bg-white p-2 mt-28 ml-0 w-32 rounded shadow-lg">
-              <Link><p className="text-black text-sm">SSW</p></Link>
-              <Link><p className="text-black text-sm">DSW</p></Link>
-              <Link><p className="text-black text-sm">Proctors Office</p></Link>
-              <Link to='/career'><p className="text-black text-sm">Career</p></Link>
-
+              <Link><p className="text-black text-base hover:text-logoRed">SSW</p></Link>
+              <Link><p className="text-black text-base hover:text-logoRed">DSW</p></Link>
+              <Link><p className="text-black text-base hover:text-logoRed">Proctors Office</p></Link>
             </div>
           )}
         </Link>              
@@ -46,6 +44,8 @@ const SecondaryNav = () => {
             <Link to='/library' className="nav-link"><p className="hover:text-red-500 nav-text">Library</p></Link>
             <p className="text-white text-xl"><TbMinusVertical /></p>
             <Link to='/alumni' className="nav-link"><p className="hover:text-red-500 nav-text">Alumni</p></Link>
+            <p className="text-white text-xl"><TbMinusVertical /></p>
+            <Link to='/career' className="nav-link"><p className="hover:text-red-500 nav-text">Career</p></Link>
             <p className="text-white text-xl"><TbMinusVertical /></p>
             <Link to='/contact' className="nav-link"><p className="hover:text-red-500 nav-text">Contact</p></Link>
       </div>

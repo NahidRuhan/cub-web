@@ -25,6 +25,7 @@ const Message = () => {
 <div className="lg:w-1/2 relative flex lg:flex-col flex-col-reverse">
             {isVisible && (
               <TypeAnimation
+              cursor={false}
               ref={animationRef}
               className="text-xl font-bold h-28 md:h-24 text-center md:text-left"
               style={{ whiteSpace: 'pre-line', display: 'block' }}
@@ -37,7 +38,7 @@ const Message = () => {
             />
             )}
             <img
-              className="w-full rounded-lg"
+              className="w-full lg:w-3/4 xl:w-1/2 rounded-lg"
               src={chairman}
               alt="Chairman"
             />
@@ -45,10 +46,10 @@ const Message = () => {
     <div className="lg:w-1/2">
         <div className="flex flex-col gap-5">
             <h1 className="text-xl font-semibold text-logoRed">&quot;To all my dear students - Work hard. There is no shortcut to success.&quot;</h1>
-            <p>Welcome to the Canadian University of Bangladesh! Established in 2016 under the Private Universities Act of 2010, our university holds approval from the Ministry of Education, Government of Bangladesh, and the University Grants Commission (UGC).</p>
-            <p>We take pride in our swift progress and continuous academic growth, dedicated to offering quality education. Our vision is to stand out internationally in our chosen fields by embracing Canadian perspectives in learning, research, and application, rooted in respect for diverse cultures and Bangladeshi values. Through collaboration and cooperation, we aim to realize our vision and fulfill our mission through education, research, entrepreneurship, and community service.</p>
-            <p>Our campus boasts excellent infrastructure and facilities conducive to your learning journey. Moreover, we provide various opportunities for engaging in extracurricular activities, fostering the development of leadership qualities.</p>
-            <p>Wishing you success in your educational endeavors and future career pursuits.</p>
+            <p className='text-justify'>Welcome to the Canadian University of Bangladesh! Established in 2016 under the Private Universities Act of 2010, our university holds approval from the Ministry of Education, Government of Bangladesh, and the University Grants Commission (UGC).</p>
+            <p className='text-justify'>We take pride in our swift progress and continuous academic growth, dedicated to offering quality education. Our vision is to stand out internationally in our chosen fields by embracing Canadian perspectives in learning, research, and application, rooted in respect for diverse cultures and Bangladeshi values. Through collaboration and cooperation, we aim to realize our vision and fulfill our mission through education, research, entrepreneurship, and community service.</p>
+            <p className='text-justify'>Our campus boasts excellent infrastructure and facilities conducive to your learning journey. Moreover, we provide various opportunities for engaging in extracurricular activities, fostering the development of leadership qualities.</p>
+            <p className='text-justify'>Wishing you success in your educational endeavors and future career pursuits.</p>
         </div>            
     </div>
 </div>
