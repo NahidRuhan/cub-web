@@ -3,6 +3,7 @@ import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import TertioryNav from "../../shared/TertioryNav";
 import banner from "../../assets/Leadership.jpg"
+import chairman from '../../assets/chairmen.jpg'
 
 const Leadership = () => {
   return (
@@ -55,7 +56,7 @@ const Leadership = () => {
           <div className="flex flex-col lg:flex-row gap-3">
           <p className="text-justify">
           DR. CHOWDHURY NAFEEZ SARAFAT, a prominent entrepreneur, investor, and philanthropist, is widely recognized for his contributions to Bangladesh&apos;s sustainable economic development and SDG achievements. His career includes pivotal roles in The Standard Chartered Bank, the establishment of &apos;RACE&apos;, Bangladesh&apos;s largest Asset Management Company, and raising over $2 billion through various financial instruments. He has also ventured into the hospitality sector and sponsored Chains like Marriot group, chaired a private bank, and spearheaded educational initiatives, notably founding the Canadian University of Bangladesh implementing world class Canadian Education system in Bangladesh. He is also Managing Director of Unique Meghnaghat Power (600 MW power plant in partnership with General Electric US and Nebras Power Govt. of Qatar), Sponsor Director of LIC Bangladesh, the multinational insurance giant (in partnership with Govt. of India) and the Vice Chairman of Frontier Towers Bangladesh, a multinational tower sharing company in partnership with KKR (Kohlberg Kravis Roberts), the world&apos;s second-largest private equity. Dr. Sarafat is a trailblazer in journalism and an active participant in international forums such as 42nd G7 Summit in Japan, UN General Assembly 2016, 2017, 2018, 2019, and 2020, Global Fund Fifth Replenishment Conference 2016 in Montreal, and Budapest Water Summit 2016 which showcases his global network. He completed his MBA from the University of New Castle (UK), Masters in Corporate Social Responsibility from London Graduate School (UK), and Doctorate of Business Administration (DBA) from Commonwealth University (UK). Dr. Nafeez is an inspirational individual who is inspiring millions of youths of Bangladesh and cross-borders.</p>
-          <img src="https://canadianuv.netlify.app/Images/Chariman_2.jpg" alt="" />
+          <img className="lg:w-2/6" src={chairman} alt="" />
           </div>
 
         </div>

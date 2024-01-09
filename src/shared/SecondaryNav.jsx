@@ -45,8 +45,6 @@ const SecondaryNav = () => {
             <p className="text-white text-xl"><TbMinusVertical /></p>
             <Link to='/library' className="nav-link"><p className="hover:text-red-500 nav-text">Library</p></Link>
             <p className="text-white text-xl"><TbMinusVertical /></p>
-            <Link to='/career' className="nav-link"><p className="hover:text-red-500 nav-text">Career</p></Link>
-            <p className="text-white text-xl"><TbMinusVertical /></p>
             <Link to='/alumni' className="nav-link"><p className="hover:text-red-500 nav-text">Alumni</p></Link>
             <p className="text-white text-xl"><TbMinusVertical /></p>
             <Link to='/contact' className="nav-link"><p className="hover:text-red-500 nav-text">Contact</p></Link>

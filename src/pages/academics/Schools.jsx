@@ -4,6 +4,10 @@ import SecondaryNav from '../../shared/SecondaryNav';
 import TertioryNav from '../../shared/TertioryNav';
 import { useState } from 'react';
 import banner from "../../assets/school.png"
+import eee from '../../assets/schools/1.jpg'
+import cse from '../../assets/schools/cse.jpg'
+import law from '../../assets/schools/law.jpg'
+import media from '../../assets/schools/media.jpg';
 
 const Schools = () => {
 
@@ -62,7 +66,7 @@ const Schools = () => {
     <div className="flex flex-col gap-2">
     <img
     className="w-full h-72"
-    src="https://canadianuv.netlify.app/DepartmentThumb/CSE.jpg"
+    src={cse}
     alt=""
     style={{ filter: isHoveredCSE ? 'brightness(70%)' : 'brightness(100%)' }}
     />
@@ -85,7 +89,7 @@ const Schools = () => {
     <div className="flex flex-col gap-2">
     <img
     className="w-full h-72"
-    src="https://canadianuv.netlify.app/DepartmentThumb/EEE.jpg"
+    src={eee}
     alt=""
     style={{ filter: isHoveredEEE ? 'brightness(70%)' : 'brightness(100%)' }}
     />
@@ -242,7 +246,7 @@ This program is intended for recent graduates who are entering the job marketpla
     <div className="flex flex-col gap-2">
     <img
     className="w-full h-72"
-    src="https://scontent.fdac5-1.fna.fbcdn.net/v/t39.30808-6/272123248_2766521430318461_1434362595477362743_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=173fa1&_nc_ohc=yDeabj5LYWoAX9LWJJc&_nc_ht=scontent.fdac5-1.fna&oh=00_AfB-CwYyMXNBVuQJSeDEFAUsMUm24z0Eqz4jmFN_LZMDOw&oe=659C152A"
+    src={law}
     alt=""
     style={{ filter: isHoveredLaw ? 'brightness(70%)' : 'brightness(100%)' }}
     />
@@ -264,7 +268,7 @@ This program is intended for recent graduates who are entering the job marketpla
     <div className="flex flex-col gap-2">
     <img
     className="w-full h-72"
-    src="https://scontent.fdac5-2.fna.fbcdn.net/v/t39.30808-6/297259190_4751265774974527_7412224896139489089_n.png?stp=dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=173fa1&_nc_ohc=eOIUJXr6Q5QAX-S-3IO&_nc_ht=scontent.fdac5-2.fna&oh=00_AfBbUjN9WEYBmcu3H_k8bGadvK6amqqv6BVpTfdF4u7M5g&oe=659B4353"
+    src={media}
     alt=""
     style={{ filter: isHoveredMCJ ? 'brightness(70%)' : 'brightness(100%)' }}
     />

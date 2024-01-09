@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import TertioryNav from "../../shared/TertioryNav";
-import spring from "../../assets/tri.jpg"
-import springBi from "../../assets/bi.jpg"
+import spring from "../../assets/Academic Calendar_(Tri) Spring 2024.jpg"
+import springBi from "../../assets/Academic Calendar_(Bi) Spring 2024.jpg"
 const Calender = () => {
     return (
         <div>

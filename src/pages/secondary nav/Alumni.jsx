@@ -1,6 +1,11 @@
 import LogoNav from "../../shared/LogoNav";
 import SecondaryNav from "../../shared/SecondaryNav";
 import TertioryNav from "../../shared/TertioryNav";
+import rana from "../../assets/Alumni/Rana_page-0001.jpg"
+import nomrota from "../../assets/Alumni/Namrata_page-0001.jpg"
+import likhon from "../../assets/Alumni/Likhon (2)_page-0001.jpg"
+import samin from "../../assets/Alumni/samin_page-0001.jpg"
+import PP from "../../assets/Alumni/Pranto_page-0001.jpg"
 
 const Alumni = () => {
     return (
@@ -19,17 +24,11 @@ const Alumni = () => {
 
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10">
 
-    <img src="https://canadianuv.netlify.app/Alumni/Alumni%202.jpg" alt="" />
-    <img src="https://canadianuv.netlify.app/Alumni/Alumni%203.jpg" alt="" />
-    <img src="https://canadianuv.netlify.app/Alumni/Alumni%204.jpg" alt="" />
-    <img src="https://canadianuv.netlify.app/Alumni/Alumni%205.jpg" alt="" />
-    <img src="https://canadianuv.netlify.app/Alumni/mahbub.jpg" alt="" />
-    <img src="https://canadianuv.netlify.app/Alumni/majid.jpg" alt="" />
-    <img src="https://canadianuv.netlify.app/Alumni/CSE%20Alumni/GSM%20Rana.jpg" alt="" />
-    <img src="https://canadianuv.netlify.app/Alumni/CSE%20Alumni/Namrata%20Datta.jpg" alt="" />
-    <img src="https://canadianuv.netlify.app/Alumni/CSE%20Alumni/Pranto%20Paul.jpg" alt="" />
-    <img className="col-span-3 w-1/4 mx-auto" src="https://i.ibb.co/xJrm3dC/likhon.jpg" alt="" />
-
+<img className="" src={rana} alt="" />
+        <img className="" src={nomrota} alt="" />
+        <img className="" src={PP} alt="" />
+        <img className="" src={likhon} alt="" />
+        <img className="" src={samin} alt="" />
 </div>
 
 <div className="flex flex-col gap-3 mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl pb-10">

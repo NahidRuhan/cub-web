@@ -1,7 +1,7 @@
 import { TypeAnimation } from 'react-type-animation';
 import { useEffect, useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
-import chairman from '../assets/chairman.jpeg'
+import chairman from '../assets/chairmen.jpg'
 
 const Message = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -22,7 +22,7 @@ const Message = () => {
 
 <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10">
 <div className="flex flex-col lg:flex-row justify-center items-center gap-5">
-<div className="lg:w-1/2 relative flex md:flex-col flex-col-reverse">
+<div className="lg:w-1/2 relative flex lg:flex-col flex-col-reverse">
             {isVisible && (
               <TypeAnimation
               ref={animationRef}
@@ -37,7 +37,7 @@ const Message = () => {
             />
             )}
             <img
-              className="w-full lg:w-3/5 rounded-lg"
+              className="w-full rounded-lg"
               src={chairman}
               alt="Chairman"
             />
