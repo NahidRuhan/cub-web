@@ -1,6 +1,7 @@
 import { TypeAnimation } from 'react-type-animation';
 import { useEffect, useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
+import chairman from '../assets/chairman.jpeg'
 
 const Message = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -24,20 +25,20 @@ const Message = () => {
 <div className="lg:w-1/2 relative flex md:flex-col flex-col-reverse">
             {isVisible && (
               <TypeAnimation
-                ref={animationRef}
-                className="text-xl font-bold h-28 md:h-24 text-center md:text-left"
-                style={{ whiteSpace: 'pre-line', display: 'block' }}
-                sequence={[
-                  `Dr. Chowdhury Nafeez Sarafat\nFounder & Chairman\nCanadian University of Bangladesh`,
-                  1000,
-                  '',
-                ]}
-                repeat={Infinity}
-              />
+              ref={animationRef}
+              className="text-xl font-bold h-28 md:h-24 text-center md:text-left"
+              style={{ whiteSpace: 'pre-line', display: 'block' }}
+              sequence={[
+                `Dr. Chowdhury Nafeez Sarafat\nFounder & Chairman\nCanadian University of Bangladesh`,
+                1000,
+              ]}
+              repeat={0} // Won't repeat after completing the sequence
+              omitDeletionAnimation={true} // Skip deletion animation
+            />
             )}
             <img
               className="w-full lg:w-3/5 rounded-lg"
-              src="https://canadianuv.netlify.app/Images/Chariman_2.jpg"
+              src={chairman}
               alt="Chairman"
             />
           </div>
